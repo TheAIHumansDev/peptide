@@ -1,0 +1,1915 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- PRIMARY SEO -->
+<title>Clinic Management Tech | Measure every patient. Prove every result.</title>
+<meta name="description" content="Clinic Management Tech turns a phone camera into a repeatable measurement tool for aesthetic and wellness clinics: 468-point facial mapping, zone-by-zone skin data, camera-based vitals and progress tracking, connected to scheduling, records and a patient app.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#F7F1E8">
+
+<!-- OPEN GRAPH -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Clinic Management Tech">
+<meta property="og:title" content="Clinic Management Tech | Measure every patient. Prove every result.">
+<meta property="og:description" content="468-point facial mapping, skin data by zone, camera-based vitals and visit-by-visit progress, in one platform for clinics, doctors and patients.">
+<meta property="og:url" content="https://clinicmanagementech.com">
+<meta property="og:image" content="https://clinicmanagementech.com/clinictech.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Clinic Management Tech - measurement platform for aesthetic clinics">
+
+<!-- TWITTER / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clinic Management Tech | Precision data for every patient">
+<meta name="twitter:description" content="Facial mapping, skin metrics, camera vitals and progress tracking, connected to your clinic and your patients' app.">
+<meta name="twitter:image" content="https://clinicmanagementech.com/clinictech.png">
+<link rel="canonical" href="https://clinicmanagementech.com">
+<link rel="icon" type="image/png" href="assets/cmt-logo.png">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"SoftwareApplication",
+  "name":"Clinic Management Tech",
+  "applicationCategory":"HealthApplication",
+  "operatingSystem":"Web, iOS, Android",
+  "url":"https://clinicmanagementech.com",
+  "description":"Measurement and management platform for aesthetic and wellness clinics: 468-point facial analysis, skin metrics by zone, camera-based vital signs estimates, progress tracking against a baseline, scheduling, records and a patient app.",
+  "inLanguage":"en",
+  "featureList":["468-point facial analysis","Facial proportion and symmetry scoring","Skin metrics by zone","Camera-based heart rate and respiratory rate","Blood pressure trend estimate","Progress tracking against a Day 0 baseline","Lab and biomarker results in the patient record","Scheduling","Clinical records","Patient app","Skincare routines","AI patient messaging"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+  --cream:#F7F1E8; --cream-2:#EFE5D7; --sand:#E6D7C2; --paper:#FFFCF7;
+  --gold:#B08A4F; --gold-2:#C9A46A; --gold-3:#8E6B36; --gold-soft:rgba(176,138,79,.14);
+  --ink:#231D18; --ink-2:#4A4038; --muted:#7D7065;
+  --dark:#1C1814; --dark-2:#2A241E; --dark-line:rgba(201,164,106,.22);
+  --line:rgba(142,107,54,.18);
+  --grad-gold:linear-gradient(135deg,#D9B97F 0%,#B08A4F 45%,#8E6B36 100%);
+  --r:22px; --ease:cubic-bezier(.2,.8,.2,1);
+  --shadow:0 30px 70px -30px rgba(74,52,24,.35);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+html{overflow-x:clip}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+h1,h2,h3,h4{font-family:Montserrat,sans-serif;margin:0;letter-spacing:-.01em}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- brand ---------- */
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:42px;width:auto}
+.brand .sep{width:1px;height:34px;background:var(--gold);opacity:.6}
+.wordmark{font-family:Montserrat,sans-serif;font-weight:500;font-size:11px;letter-spacing:.32em;line-height:1.35;color:var(--ink);text-transform:uppercase}
+
+/* ---------- buttons ---------- */
+.btn{appearance:none;border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-family:Montserrat,sans-serif;font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:16px 28px;border-radius:999px;transition:transform .25s var(--ease),box-shadow .25s,background .25s;white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn-gold{background:var(--grad-gold);color:#fff;box-shadow:0 14px 30px -12px rgba(142,107,54,.65)}
+.btn-gold:hover{box-shadow:0 18px 40px -12px rgba(142,107,54,.8);transform:translateY(-1px)}
+.btn-line{border:1.5px solid var(--gold);color:var(--gold-3);background:transparent}
+.btn-line:hover{background:var(--gold-soft)}
+.btn-dark{background:var(--cream);color:var(--ink)}
+.btn-dark:hover{background:#fff}
+
+/* ---------- nav ---------- */
+.nav{position:sticky;top:0;z-index:40;background:rgba(247,241,232,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .3s}
+.nav.scrolled{border-bottom-color:var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px;gap:16px}
+.nav-links{display:flex;gap:30px;font-family:Montserrat,sans-serif;font-size:12.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+.nav-links a{text-decoration:none;color:var(--ink-2);position:relative}
+.nav-links a::after{content:"";position:absolute;left:0;right:100%;bottom:-6px;height:1.5px;background:var(--gold);transition:right .3s var(--ease)}
+.nav-links a:hover::after{right:0}
+.nav .btn{padding:12px 20px;font-size:11.5px}
+.burger{display:none;background:none;border:0;width:42px;height:42px;cursor:pointer;color:var(--ink)}
+@media (max-width:960px){
+  .nav-links{position:fixed;inset:76px 0 auto 0;flex-direction:column;gap:0;background:var(--cream);border-bottom:1px solid var(--line);padding:8px 20px 18px;transform:translateY(-130%);transition:transform .35s var(--ease);z-index:-1}
+  .nav-links a{padding:14px 0;border-bottom:1px solid var(--line)}
+  .nav-links.open{transform:none}
+  .burger{display:grid;place-items:center}
+  .nav .btn{display:none}
+}
+
+/* ---------- section primitives ---------- */
+section{position:relative}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font-family:Montserrat,sans-serif;font-weight:600;font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold-3)}
+.eyebrow::before,.eyebrow.both::after{content:"";width:34px;height:1px;background:var(--gold)}
+.h-sec{font-weight:900;text-transform:uppercase;font-size:clamp(28px,4.4vw,48px);line-height:1.04;letter-spacing:-.015em;margin:18px 0 16px}
+.h-sec em{font-style:normal;color:var(--gold)}
+.lead{font-size:clamp(16px,1.6vw,18px);color:var(--ink-2);max-width:60ch}
+.center{text-align:center}
+.center .lead{margin-left:auto;margin-right:auto}
+.pad{padding:110px 0}
+@media (max-width:700px){.pad{padding:76px 0}}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.1s}.rv.d2{transition-delay:.2s}.rv.d3{transition-delay:.3s}
+
+/* ---------- hero ---------- */
+.hero{padding:56px 0 40px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(50% 60% at 82% 30%,rgba(201,164,106,.26),transparent 70%),
+  radial-gradient(40% 40% at 5% 90%,rgba(230,215,194,.9),transparent 70%);z-index:-1}
+.ribbon{position:absolute;overflow:hidden;pointer-events:none;z-index:-1;opacity:.55}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;min-height:calc(100vh - 160px)}
+.hero h1{font-weight:900;text-transform:uppercase;font-size:clamp(36px,5.6vw,70px);line-height:.98;letter-spacing:-.02em;margin:22px 0 22px}
+.hero h1 .g{background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .lead{font-size:clamp(17px,1.8vw,20px);margin-bottom:34px}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.trio{display:flex;gap:26px;margin-top:40px;flex-wrap:wrap}
+.trio div{display:flex;align-items:center;gap:10px;font-family:Montserrat,sans-serif;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.trio i{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--gold);color:var(--gold-3);font-style:normal}
+@media (max-width:960px){.hero-grid{grid-template-columns:1fr;min-height:0}.hero-copy{text-align:center}.hero .lead{margin-left:auto;margin-right:auto}.hero-ctas,.trio{justify-content:center}.eyebrow.hero-eb::before{display:none}}
+
+/* ---------- phone ---------- */
+.stage{position:relative;height:640px;display:flex;justify-content:center;align-items:center}
+.stage svg.web{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.phone{position:relative;z-index:2;width:282px;height:578px;border-radius:46px;background:#141110;padding:11px;box-shadow:0 50px 90px -40px rgba(60,40,15,.65),inset 0 0 0 1.5px #3a322b}
+.phone::before{content:"";position:absolute;top:20px;left:50%;transform:translateX(-50%);width:88px;height:24px;border-radius:20px;background:#141110;z-index:3}
+.screen{width:100%;height:100%;border-radius:36px;background:var(--paper);overflow:hidden;position:relative;font-size:12px}
+.phone.back{position:absolute;width:244px;height:500px;border-radius:40px;transform:translate(-120px,40px) rotate(-8deg);z-index:1;opacity:.97}
+.phone.back .screen{border-radius:31px}
+.sb{display:flex;justify-content:space-between;padding:16px 22px 0;font-size:11px;font-weight:600}
+.app-h{padding:30px 18px 10px}
+.app-h small{color:var(--muted);font-size:11px}
+.app-h b{display:block;font-family:Montserrat,sans-serif;font-size:19px;font-weight:800}
+.next-appt{margin:6px 14px 12px;padding:14px;border-radius:18px;background:var(--grad-gold);color:#fff}
+.next-appt .k{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;opacity:.85}
+.next-appt .t{font-family:Montserrat,sans-serif;font-weight:700;font-size:14px;margin:3px 0 1px}
+.next-appt .d{font-size:11px;opacity:.9}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 14px}
+.tile{background:var(--cream);border:1px solid var(--line);border-radius:14px;padding:11px 10px;display:grid;gap:6px}
+.tile svg{width:20px;height:20px;color:var(--gold-3)}
+.tile b{font-size:11.5px;font-weight:600}
+.tile span{font-size:9.5px;color:var(--muted);line-height:1.3}
+.app-nav{position:absolute;left:12px;right:12px;bottom:12px;height:50px;border-radius:25px;background:#fff;border:1px solid var(--line);display:flex;justify-content:space-around;align-items:center;color:var(--muted)}
+.app-nav svg{width:19px;height:19px}
+.app-nav .on{color:var(--gold-3)}
+.routine{padding:30px 16px 0}
+.routine .tabs{display:flex;gap:6px;margin:10px 0 12px}
+.routine .tabs span{flex:1;text-align:center;font-size:9.5px;font-weight:700;letter-spacing:.1em;padding:6px;border-radius:999px;background:var(--cream-2);color:var(--ink-2)}
+.routine .tabs span.on{background:var(--ink);color:var(--cream)}
+.step{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:11px}
+.step .c{width:18px;height:18px;border-radius:50%;border:1.5px solid var(--gold);flex:none;display:grid;place-items:center}
+.step .c.ok{background:var(--gold)}
+.step .c.ok::after{content:"";width:6px;height:3px;border:1.5px solid #fff;border-top:0;border-right:0;transform:rotate(-45deg) translateY(-1px)}
+.step b{font-weight:600;display:block}
+.step span{color:var(--muted);font-size:9.5px}
+.week{display:flex;justify-content:space-between;margin-top:14px}
+.week i{width:22px;height:22px;border-radius:50%;font-style:normal;font-size:9px;display:grid;place-items:center;background:var(--cream-2);color:var(--ink-2)}
+.week i.on{background:var(--gold);color:#fff}
+.float{position:absolute;z-index:4;background:rgba(255,252,247,.92);backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:16px;padding:12px 14px;box-shadow:var(--shadow);display:flex;align-items:center;gap:10px;font-size:12.5px;animation:bob 6s ease-in-out infinite}
+.float b{display:block;font-family:Montserrat,sans-serif;font-size:13px}
+.float span{color:var(--muted);font-size:11px}
+.float .ic{width:36px;height:36px;border-radius:12px;background:var(--gold-soft);display:grid;place-items:center;color:var(--gold-3);flex:none}
+.float .ic svg{width:19px;height:19px}
+.f1{top:70px;right:0}.f2{bottom:110px;right:-10px;animation-delay:-2s}.f3{bottom:40px;left:0;animation-delay:-4s}
+@keyframes bob{50%{transform:translateY(-10px)}}
+@media (max-width:560px){.stage{height:600px}.phone.back{display:none}.f1{right:-6px;top:30px}.f2{right:-6px}.f3{left:-6px}.float{padding:9px 11px}.float .ic{width:30px;height:30px}}
+
+/* ---------- modules strip ---------- */
+.strip{padding:34px 0 20px}
+.mods{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.mod{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:22px 14px;text-align:center;transition:transform .3s var(--ease),box-shadow .3s}
+.mod:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.mod .ic{width:54px;height:54px;margin:0 auto 12px;border-radius:16px;background:linear-gradient(160deg,#fff,var(--cream-2));border:1px solid var(--line);display:grid;place-items:center;color:var(--gold-3);box-shadow:0 8px 18px -10px rgba(142,107,54,.5)}
+.mod .ic svg{width:26px;height:26px}
+.mod b{font-family:Montserrat,sans-serif;font-size:14px;display:block}
+.mod span{font-size:12px;color:var(--muted)}
+@media (max-width:860px){.mods{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:520px){.mods{grid-template-columns:repeat(2,1fr)}.mods .mod:last-child{grid-column:1/-1}}
+
+/* ---------- connected (dark) ---------- */
+.dark{background:var(--dark);color:var(--cream);overflow:hidden}
+.dark::before{content:"";position:absolute;inset:0;background:radial-gradient(50% 50% at 50% 45%,rgba(176,138,79,.18),transparent 70%);pointer-events:none}
+.dark .h-sec{color:var(--cream)}
+.dark .lead{color:#CDBFAE}
+.dark .eyebrow{color:var(--gold-2)}
+.hub{position:relative;margin-top:60px;display:grid;grid-template-columns:1fr 300px 1fr;gap:20px;align-items:center}
+.hub-core{position:relative;aspect-ratio:1;display:grid;place-items:center}
+.hub-core .ring{position:absolute;inset:0;border-radius:50%;border:1px solid var(--dark-line)}
+.hub-core .ring.r2{inset:12%;border-style:dashed;animation:spin 60s linear infinite}
+.hub-core .ring.r3{inset:26%;background:radial-gradient(circle,rgba(201,164,106,.2),transparent 70%);border-color:rgba(201,164,106,.4)}
+.hub-core img{width:34%;position:relative;z-index:2;filter:drop-shadow(0 0 22px rgba(201,164,106,.45))}
+.hub-core .dot{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--gold-2);box-shadow:0 0 12px var(--gold-2)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hub-col{display:grid;gap:18px}
+.role{background:var(--dark-2);border:1px solid var(--dark-line);border-radius:var(--r);padding:24px;transition:border-color .3s,transform .3s var(--ease)}
+.role:hover{border-color:rgba(201,164,106,.55);transform:translateY(-3px)}
+.role .tag{font-family:Montserrat,sans-serif;font-size:11px;font-weight:700;letter-spacing:.24em;color:var(--gold-2);text-transform:uppercase}
+.role h3{font-size:20px;font-weight:800;margin:8px 0 10px;color:var(--cream)}
+.role ul{list-style:none;padding:0;margin:0;display:grid;gap:7px;font-size:14px;color:#CDBFAE}
+.role li{display:flex;gap:10px}
+.role li::before{content:"";width:6px;height:6px;margin-top:9px;border-radius:50%;background:var(--gold);flex:none}
+.hub-flow{grid-column:1/-1;display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:20px}
+.hub-flow span{font-size:12.5px;padding:9px 16px;border-radius:999px;border:1px solid var(--dark-line);color:#E2D5C3;background:rgba(255,255,255,.02)}
+@media (max-width:960px){.hub{grid-template-columns:1fr}.hub-core{max-width:260px;margin:0 auto;order:-1}}
+
+/* ---------- patient app features ---------- */
+.feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;margin-top:50px}
+.feat-list{display:grid;gap:14px}
+.feat{display:grid;grid-template-columns:52px 1fr;gap:16px;padding:18px;border-radius:20px;border:1px solid transparent;transition:background .3s,border-color .3s;cursor:pointer}
+.feat:hover,.feat.on{background:var(--paper);border-color:var(--line);box-shadow:0 20px 40px -30px rgba(74,52,24,.4)}
+.feat .ic{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:var(--gold-soft);color:var(--gold-3)}
+.feat.on .ic{background:var(--grad-gold);color:#fff}
+.feat .ic svg{width:24px;height:24px}
+.feat h3{font-size:17px;font-weight:800;margin:2px 0 4px}
+.feat p{margin:0;font-size:14.5px;color:var(--ink-2)}
+.demo-phone{display:flex;justify-content:center;position:relative}
+.demo-phone::before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,.32),transparent 65%);top:50%;left:50%;transform:translate(-50%,-50%)}
+.pane{position:absolute;inset:0;opacity:0;transition:opacity .45s var(--ease);padding-top:30px}
+.pane.on{opacity:1}
+.pane h4{font-size:17px;font-weight:800;padding:0 16px;margin-bottom:12px}
+.row{margin:0 14px 8px;padding:11px 12px;border-radius:14px;background:var(--cream);border:1px solid var(--line);display:flex;align-items:center;gap:10px;font-size:11px}
+.row b{display:block;font-size:11.5px}
+.row span{color:var(--muted);font-size:9.5px}
+.row .pill{margin-left:auto;font-size:9px;font-weight:700;padding:4px 8px;border-radius:999px;background:var(--gold-soft);color:var(--gold-3);white-space:nowrap}
+.row .av{width:30px;height:30px;border-radius:10px;background:var(--grad-gold);flex:none;display:grid;place-items:center;color:#fff;font-weight:700;font-size:11px}
+.face-box{margin:0 14px;height:250px;border-radius:18px;background:linear-gradient(170deg,#F3E8DA,#E8D8C3);position:relative;overflow:hidden;display:grid;place-items:center}
+.face-box svg{width:72%;height:auto}
+.scanline{position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);animation:scan 3.4s ease-in-out infinite}
+@keyframes scan{0%,100%{top:8%}50%{top:90%}}
+.face-stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin:10px 14px 0}
+.face-stats div{background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:8px;text-align:center}
+.face-stats b{font-family:Montserrat,sans-serif;font-size:14px;display:block;color:var(--gold-3)}
+.face-stats span{font-size:8.5px;color:var(--muted)}
+.disc{font-size:8.5px;color:var(--muted);text-align:center;margin:8px 16px 0;font-style:italic}
+.chart{margin:4px 14px 10px;padding:12px;border-radius:16px;background:var(--cream);border:1px solid var(--line)}
+.chart svg{width:100%;height:90px}
+.chart .k{font-size:9.5px;color:var(--muted);display:flex;justify-content:space-between}
+.chat{padding:0 14px;display:grid;gap:8px}
+.bub{max-width:82%;padding:9px 12px;border-radius:14px;font-size:11px;line-height:1.4}
+.bub.in{background:var(--cream-2);border-bottom-left-radius:4px}
+.bub.out{background:var(--ink);color:var(--cream);margin-left:auto;border-bottom-right-radius:4px}
+.bub.ai{background:var(--grad-gold);color:#fff;border-bottom-left-radius:4px}
+.bub small{display:block;font-size:8.5px;opacity:.75;margin-bottom:2px;letter-spacing:.1em;text-transform:uppercase}
+@media (max-width:960px){.feat-grid{grid-template-columns:1fr;gap:40px}.demo-phone{order:-1}}
+
+/* ---------- clinic dashboard ---------- */
+.clinic{background:linear-gradient(180deg,var(--cream) 0%,var(--cream-2) 100%)}
+.laptop{max-width:900px;margin:56px auto 0;position:relative}
+.lid{background:#161210;border-radius:22px 22px 6px 6px;padding:14px;box-shadow:0 60px 100px -50px rgba(60,40,15,.7)}
+.dash{background:var(--paper);border-radius:10px;overflow:hidden;display:grid;grid-template-columns:180px 1fr;min-height:430px;font-size:12px}
+.base{height:16px;margin:0 -50px;background:linear-gradient(180deg,#d8cbb8,#a8977f);border-radius:0 0 22px 22px;position:relative}
+.base::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:120px;height:6px;border-radius:0 0 8px 8px;background:#8f7f69}
+.side{background:var(--ink);color:#d9ccbb;padding:18px 12px;display:grid;align-content:start;gap:4px}
+.side img{width:36px;margin:0 0 16px 8px}
+.side a{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;text-decoration:none;font-size:12px}
+.side a svg{width:16px;height:16px;flex:none}
+.side a.on{background:rgba(201,164,106,.18);color:#fff}
+.main{padding:20px 22px;display:grid;gap:14px;align-content:start}
+.main-h{display:flex;justify-content:space-between;align-items:center}
+.main-h b{font-family:Montserrat,sans-serif;font-size:17px}
+.main-h span{font-size:11px;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.kpi{background:var(--cream);border:1px solid var(--line);border-radius:14px;padding:12px}
+.kpi span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+.kpi b{display:block;font-family:Montserrat,sans-serif;font-size:20px;margin-top:2px}
+.kpi i{font-style:normal;font-size:10px;color:var(--gold-3)}
+.dgrid{display:grid;grid-template-columns:1.4fr 1fr;gap:12px}
+.panel{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fff}
+.panel .t{font-weight:700;font-size:11.5px;margin-bottom:8px;display:flex;justify-content:space-between}
+.panel .t span{color:var(--gold-3);font-weight:600}
+.slot{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;padding:7px 0;border-bottom:1px solid var(--line);font-size:11px}
+.slot:last-child{border:0}
+.slot time{color:var(--muted);font-size:10.5px}
+.slot .bar{padding:6px 9px;border-radius:8px;background:var(--gold-soft);border-left:3px solid var(--gold)}
+.slot .bar.b2{background:#F1E9DF;border-left-color:#8E6B36}
+.slot .bar.b3{background:#EEE6F0;border-left-color:#9C86A8}
+.slot em{font-style:normal;font-size:9.5px;color:var(--muted)}
+.alert{display:flex;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:10.5px;align-items:flex-start}
+.alert:last-child{border:0}
+.alert i{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:none;margin-top:5px;font-style:normal}
+.points{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px}
+.point{padding:26px;border-radius:var(--r);background:var(--paper);border:1px solid var(--line)}
+.point .n{font-family:Montserrat,sans-serif;font-weight:900;font-size:13px;letter-spacing:.2em;color:var(--gold)}
+.point h3{font-size:18px;font-weight:800;margin:8px 0 8px}
+.point p{margin:0;font-size:14.5px;color:var(--ink-2)}
+@media (max-width:860px){.dash{grid-template-columns:1fr}.side{display:none}.kpis{grid-template-columns:repeat(2,1fr)}.dgrid{grid-template-columns:1fr}.points{grid-template-columns:1fr}.base{margin:0 -14px}}
+
+/* ---------- before/after ---------- */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:50px}
+.vs-card{border-radius:var(--r);padding:32px 30px}
+.vs-card.no{background:var(--paper);border:1px dashed rgba(125,112,101,.35)}
+.vs-card.yes{background:var(--dark);color:var(--cream);border:1px solid var(--dark-line);position:relative;overflow:hidden}
+.vs-card.yes::after{content:"";position:absolute;right:-80px;top:-80px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,.3),transparent 70%)}
+.vs-card h3{font-size:14px;letter-spacing:.24em;text-transform:uppercase;font-weight:700;margin-bottom:20px}
+.vs-card.no h3{color:var(--muted)}
+.vs-card.yes h3{color:var(--gold-2)}
+.vs-card ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.vs-card li{display:grid;grid-template-columns:24px 1fr;gap:12px;font-size:15.5px}
+.vs-card.no li{color:var(--ink-2)}
+.vs-card li svg{width:22px;height:22px;margin-top:1px}
+.vs-card.no li svg{color:#B4A595}
+.vs-card.yes li svg{color:var(--gold-2)}
+@media (max-width:760px){.vs{grid-template-columns:1fr}}
+
+/* ---------- steps ---------- */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:56px;position:relative}
+.steps::before{content:"";position:absolute;top:34px;left:16%;right:16%;height:1px;background:repeating-linear-gradient(90deg,var(--gold) 0 6px,transparent 6px 12px)}
+.st{text-align:center;padding:0 20px;position:relative}
+.st .num{width:68px;height:68px;margin:0 auto 20px;border-radius:50%;background:var(--paper);border:1.5px solid var(--gold);display:grid;place-items:center;font-family:Montserrat,sans-serif;font-weight:900;font-size:22px;color:var(--gold-3);box-shadow:0 0 0 8px var(--cream)}
+.st h3{font-size:18px;font-weight:800;margin-bottom:8px}
+.st p{margin:0;color:var(--ink-2);font-size:14.5px}
+@media (max-width:760px){.steps{grid-template-columns:1fr;gap:36px}.steps::before{display:none}}
+
+/* ---------- GEO band ---------- */
+.geo{background:var(--dark);color:var(--cream);overflow:hidden}
+.geo-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.geo .h-sec{color:var(--cream)}
+.geo .lead{color:#CDBFAE;margin-bottom:28px}
+.geo .eyebrow{color:var(--gold-2)}
+.gpt{background:var(--paper);color:var(--ink);border-radius:26px;padding:20px;box-shadow:0 40px 80px -30px rgba(0,0,0,.7);max-width:400px;margin-left:auto}
+.gpt .top{display:flex;align-items:center;gap:8px;font-weight:600;font-size:13px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.gpt .top i{width:22px;height:22px;border-radius:50%;background:var(--ink);display:grid;place-items:center;color:#fff;font-style:normal;font-size:11px}
+.gpt .q{margin:16px 0 14px auto;max-width:85%;background:var(--cream-2);padding:11px 14px;border-radius:16px 16px 4px 16px;font-size:13.5px}
+.gpt .a{font-size:13px;display:grid;gap:8px}
+.gpt .sk{height:10px;border-radius:5px;background:#EEE6DA}
+.gpt .hit{padding:10px 12px;border-radius:12px;border:1.5px solid var(--gold);background:var(--gold-soft);font-size:12.5px;display:flex;gap:10px;align-items:center}
+.gpt .hit b{font-family:Montserrat,sans-serif}
+.gpt .ask{margin-top:14px;font-family:Montserrat,sans-serif;font-weight:900;text-transform:uppercase;font-size:18px;text-align:center;letter-spacing:-.01em}
+@media (max-width:860px){.geo-grid{grid-template-columns:1fr}.gpt{margin:0 auto}}
+
+/* ---------- FAQ ---------- */
+.faq{max-width:820px;margin:50px auto 0;display:grid;gap:12px}
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:20px 24px;font-family:Montserrat,sans-serif;font-weight:700;font-size:16px;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:24px;font-weight:400;color:var(--gold);transition:transform .3s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{margin:0;padding:0 24px 22px;color:var(--ink-2);font-size:15px}
+
+/* ---------- CTA / form ---------- */
+.cta{padding:110px 0}
+.cta-box{background:var(--dark);border-radius:34px;padding:60px;display:grid;grid-template-columns:1fr 1fr;gap:50px;color:var(--cream);position:relative;overflow:hidden}
+.cta-box::before{content:"";position:absolute;left:-120px;bottom:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,.28),transparent 70%)}
+.cta-box .h-sec{color:var(--cream)}
+.cta-box .lead{color:#CDBFAE}
+.cta-box .eyebrow{color:var(--gold-2)}
+.cta-logo{display:flex;align-items:center;gap:14px;margin-top:34px}
+.cta-logo img{height:56px}
+.cta-logo .wordmark{color:var(--cream)}
+.cta-logo .sep{width:1px;height:44px;background:var(--gold)}
+.cta-box{grid-template-columns:.9fr 1.1fr;align-items:center}
+.cta-perks{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:14px}
+.cta-perks li{display:flex;gap:12px;align-items:flex-start;color:#E2D5C3;font-size:15px}
+.cta-perks svg{width:22px;height:22px;color:var(--gold-2);flex:none;margin-top:1px}
+.agent{position:fixed;right:24px;bottom:104px;z-index:70;width:400px;height:min(660px,calc(100vh - 130px));background:var(--paper);color:var(--ink);border-radius:26px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 40px 90px -20px rgba(28,24,20,.55),0 0 0 1px var(--line);transform-origin:bottom right;transform:translateY(16px) scale(.96);opacity:0;visibility:hidden;transition:opacity .28s var(--ease),transform .28s var(--ease),visibility 0s linear .28s}
+.agent.open{opacity:1;transform:none;visibility:visible;transition:opacity .28s var(--ease),transform .28s var(--ease),visibility 0s}
+.ag-x{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--ink-2);cursor:pointer;display:grid;place-items:center;flex:none;margin-left:8px}
+.ag-x:hover{background:var(--cream)}
+.ag-launch{position:fixed;right:24px;bottom:24px;z-index:71;width:66px;height:66px;border-radius:50%;border:0;cursor:pointer;background:var(--dark);display:grid;place-items:center;box-shadow:0 18px 36px -12px rgba(28,24,20,.7),inset 0 0 0 2px rgba(201,164,106,.55);transition:transform .25s var(--ease)}
+.ag-launch:hover{transform:scale(1.06)}
+.ag-launch::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--gold-2);animation:ring 2.4s ease-out infinite}
+.ag-launch.on::before{animation:none;opacity:0}
+.ag-launch img{width:30px;transition:opacity .2s,transform .25s var(--ease)}
+.ag-launch .xi{position:absolute;color:var(--cream);opacity:0;transform:rotate(-90deg);transition:opacity .2s,transform .25s var(--ease)}
+.ag-launch.on img{opacity:0;transform:scale(.6)}
+.ag-launch.on .xi{opacity:1;transform:none}
+.ag-launch .dot{position:absolute;top:3px;right:3px;width:14px;height:14px;border-radius:50%;background:#3BB273;border:2px solid var(--cream)}
+.ag-launch.seen .dot{display:none}
+@keyframes ring{from{transform:scale(1);opacity:.7}to{transform:scale(1.45);opacity:0}}
+.ag-tip{position:fixed;right:104px;bottom:34px;z-index:69;max-width:270px;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:18px 18px 6px 18px;padding:13px 36px 13px 15px;font-size:14px;line-height:1.45;box-shadow:var(--shadow);cursor:pointer;opacity:0;transform:translateY(8px);pointer-events:none;transition:opacity .3s var(--ease),transform .3s var(--ease)}
+.ag-tip.show{opacity:1;transform:none;pointer-events:auto}
+.ag-tip b{color:var(--gold-3)}
+.ag-tip button{position:absolute;top:6px;right:6px;width:26px;height:26px;border:0;background:none;color:var(--muted);cursor:pointer;font-size:17px;line-height:1}
+body.ag-lock{overflow:hidden}
+@media (max-width:640px){
+  .agent{top:0;left:0;right:0;bottom:auto;width:100%;height:100vh;height:100dvh;border-radius:0;transform:translateY(100%);transform-origin:bottom center}
+  .agent.open{transform:none}
+  .agent .ag-h{padding-top:calc(14px + env(safe-area-inset-top))}
+  .agent .ag-foot{padding-bottom:calc(10px + env(safe-area-inset-bottom))}
+  .ag-launch{right:16px;bottom:16px;width:60px;height:60px}
+  .ag-launch.on{opacity:0;pointer-events:none}
+  .ag-tip{right:16px;bottom:86px;max-width:220px;font-size:13px;padding:11px 32px 11px 13px}
+}
+/* tarjeta de presentación de Savia en la sección demo */
+.savia-card{position:relative;z-index:1;background:var(--paper);color:var(--ink);border-radius:26px;padding:28px;box-shadow:0 40px 80px -30px rgba(0,0,0,.75);display:grid;gap:16px}
+.sc-top{display:flex;align-items:center;gap:14px}
+.sc-top .ag-av{width:58px;height:58px}
+.sc-top .ag-av img{width:28px}
+.sc-top b{font-family:Montserrat,sans-serif;font-size:22px;font-weight:800;display:block;line-height:1.1}
+.sc-top span.s{font-size:13px;color:var(--muted)}
+.sc-bubble{background:#fff;border:1px solid var(--line);border-radius:18px;border-bottom-left-radius:6px;padding:14px 16px;font-size:15px}
+.sc-bubble b{color:var(--gold-3)}
+.sc-chips{display:flex;flex-wrap:wrap;gap:8px}
+.sc-chips button{border:1.5px solid var(--gold);background:#fff;color:var(--gold-3);font:inherit;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;cursor:pointer}
+.sc-chips button:hover{background:var(--gold-soft)}
+.savia-card .btn{width:100%}
+.ag-h{display:flex;align-items:center;gap:12px;padding:16px 18px;border-bottom:1px solid var(--line);background:#fff}
+.ag-av{position:relative;width:46px;height:46px;border-radius:50%;background:var(--dark);display:grid;place-items:center;flex:none}
+.ag-av img{width:22px}
+.ag-av::after{content:"";position:absolute;right:0;bottom:0;width:12px;height:12px;border-radius:50%;background:#3BB273;border:2px solid #fff}
+.ag-h b{font-family:Montserrat,sans-serif;font-size:15px;display:block;line-height:1.2}
+.ag-h span#ag-status{font-size:12px;color:var(--muted)}
+.ag-badge{margin-left:auto;font-family:Montserrat,sans-serif;font-size:10px;font-weight:800;letter-spacing:.18em;padding:6px 11px;border-radius:999px;background:var(--grad-gold);color:#fff}
+.ag-prog{display:flex;gap:8px;padding:10px 18px 9px;border-bottom:1px solid var(--line);background:#fff}
+.ag-prog span{flex:1;font-size:9.5px;font-weight:700;letter-spacing:.08em;color:var(--muted);text-transform:uppercase;font-family:Montserrat,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ag-prog i{display:block;height:3px;border-radius:3px;background:var(--cream-2);margin-bottom:6px;position:relative;overflow:hidden}
+.ag-prog i::after{content:"";position:absolute;inset:0;width:0;background:var(--grad-gold);transition:width .6s var(--ease)}
+.ag-prog span.on{color:var(--gold-3)}
+.ag-prog span.on i::after{width:100%}
+.ag-body{flex:1;overflow-y:auto;padding:18px 16px 10px;display:flex;flex-direction:column;gap:10px;overscroll-behavior:contain;background:linear-gradient(180deg,var(--paper),#FBF6EE)}
+.msg{max-width:86%;padding:11px 14px;border-radius:18px;font-size:14.5px;line-height:1.5;animation:pop .3s var(--ease);white-space:pre-line;overflow-wrap:anywhere}
+.msg.bot{background:#fff;border:1px solid var(--line);border-bottom-left-radius:6px;align-self:flex-start}
+.msg.me{background:var(--ink);color:var(--cream);border-bottom-right-radius:6px;align-self:flex-end}
+.msg b{color:var(--gold-3)}
+.msg.me b{color:var(--gold-2)}
+@keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.typing{align-self:flex-start;display:flex;gap:4px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:18px;border-bottom-left-radius:6px}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--gold);animation:blink 1.2s infinite}
+.typing i:nth-child(2){animation-delay:.2s}.typing i:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,80%,100%{opacity:.25;transform:none}40%{opacity:1;transform:translateY(-3px)}}
+.qr{display:flex;flex-wrap:wrap;gap:8px;animation:pop .3s var(--ease)}
+.qr button{border:1.5px solid var(--gold);background:#fff;color:var(--gold-3);font:inherit;font-size:13px;font-weight:600;padding:8px 14px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.qr button:hover{background:var(--gold-soft)}
+.qr button.sel{background:var(--gold);color:#fff}
+.qr button.solid{background:var(--grad-gold);color:#fff;border-color:transparent}
+.card-sum{align-self:stretch;border:1.5px solid var(--gold);background:#fff;border-radius:18px;padding:16px 18px;font-size:13.5px;animation:pop .3s var(--ease)}
+.card-sum h4{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-3);margin-bottom:10px}
+.card-sum dl{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0}
+.card-sum dt{color:var(--muted)}
+.card-sum dd{margin:0;font-weight:600;overflow-wrap:anywhere}
+.card-sum .acts{display:flex;flex-wrap:wrap;gap:8px}
+.card-sum .acts a{text-decoration:none;font-size:11px;padding:12px 16px}
+.ag-in{display:flex;gap:8px;padding:12px 12px 8px;border-top:1px solid var(--line);background:#fff;margin:0}
+.ag-in textarea{flex:1;resize:none;border:1px solid var(--line);border-radius:16px;padding:12px 14px;font:inherit;font-size:15px;line-height:1.4;max-height:110px;outline:0;background:var(--paper);color:var(--ink)}
+.ag-in textarea:focus{border-color:var(--gold);box-shadow:0 0 0 4px var(--gold-soft)}
+.ag-send{width:48px;height:48px;border-radius:50%;border:0;background:var(--grad-gold);color:#fff;cursor:pointer;display:grid;place-items:center;flex:none;align-self:flex-end;transition:transform .2s}
+.ag-send:hover{transform:scale(1.05)}
+.ag-send:disabled{opacity:.45;cursor:default;transform:none}
+.ag-foot{font-size:10.5px;color:var(--muted);text-align:center;padding:0 12px 10px;margin:0;background:#fff}
+@media (max-width:860px){.cta-box{grid-template-columns:1fr;padding:40px 18px 18px;border-radius:26px;gap:34px}.savia-card{padding:22px 18px}}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--line);padding:44px 0 50px;font-size:13px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer nav{display:flex;gap:22px;flex-wrap:wrap}
+footer a{text-decoration:none}
+footer a:hover{color:var(--gold-3)}
+
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:50;width:58px;height:58px;border-radius:50%;background:var(--grad-gold);color:#fff;display:grid;place-items:center;box-shadow:0 16px 30px -10px rgba(142,107,54,.8);transition:transform .25s var(--ease),opacity .3s}
+.wa-float:hover{transform:scale(1.06)}
+.wa-float{border:0;cursor:pointer}
+.wa-float svg{width:28px;height:28px}
+.wa-float::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid var(--gold-2);animation:ring 2.4s ease-out infinite}
+@keyframes ring{from{transform:scale(1);opacity:.7}to{transform:scale(1.5);opacity:0}}
+.wa-float .tip{position:absolute;right:70px;top:50%;transform:translateY(-50%);white-space:nowrap;background:#fff;color:var(--ink);font-family:Montserrat,sans-serif;font-size:12px;font-weight:700;letter-spacing:.04em;padding:10px 14px;border-radius:999px;box-shadow:var(--shadow);border:1px solid var(--line)}
+.wa-float.hide{opacity:0;pointer-events:none;transform:scale(.8)}
+@media (max-width:640px){.wa-float .tip{display:none}}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+
+body{overflow-x:clip!important}
+/* =================================================================
+   SCROLL-DRIVEN VIDEO HERO
+   Layout: a tall track; inside, a sticky full-height stage with
+   chapter copy (left) · phone playing the app (center) · live
+   readout (right). Scroll position scrubs the video.
+   ================================================================= */
+:root{ --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace; --ok:#4E8B5F }
+.scrolly{position:relative;height:calc(var(--chapters) * 78vh + 100vh)}
+.scrolly::before{content:"";position:absolute;inset:0;background:
+  radial-gradient(45% 40% at 50% 30%,rgba(201,164,106,.28),transparent 70%),
+  radial-gradient(40% 40% at 5% 95%,rgba(230,215,194,.9),transparent 70%);pointer-events:none}
+.stage-x{position:sticky;top:0;height:100vh;height:100svh;padding-top:76px;overflow:hidden}
+.stage-grid{height:100%;display:grid;grid-template-columns:1fr auto 300px;gap:48px;align-items:center}
+
+/* chapter copy */
+.chaps{position:relative;min-height:420px;min-width:0}
+.chap{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;opacity:0;transform:translateY(18px);transition:opacity .5s var(--ease),transform .5s var(--ease);pointer-events:none}
+.chap.on{opacity:1;transform:none;pointer-events:auto}
+.chap .k{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-3);display:flex;gap:10px;align-items:center}
+.chap .k b{font-weight:500;color:var(--muted)}
+.chap h2{font-weight:900;text-transform:uppercase;font-size:clamp(28px,3.6vw,46px);line-height:1;letter-spacing:-.015em;margin:16px 0 16px;text-wrap:balance}
+.chap h2 em{font-style:normal;color:var(--gold)}
+.chap p{font-size:clamp(15.5px,1.4vw,17.5px);color:var(--ink-2);max-width:46ch;margin:0}
+.chap.intro h1{font-weight:900;text-transform:uppercase;font-size:clamp(34px,4.9vw,64px);line-height:.98;letter-spacing:-.02em;margin:20px 0 20px;text-wrap:balance}
+.chap.intro h1 .g{background:var(--grad-gold);-webkit-background-clip:text;background-clip:text;color:transparent}
+.chap.intro .hero-ctas{margin-top:30px}
+.cue{display:inline-flex;align-items:center;gap:10px;margin-top:28px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.cue i{width:18px;height:28px;border:1.5px solid var(--gold);border-radius:10px;position:relative}
+.cue i::after{content:"";position:absolute;left:50%;top:5px;width:3px;height:6px;margin-left:-1.5px;border-radius:2px;background:var(--gold);animation:cue 1.8s ease-in-out infinite}
+@keyframes cue{50%{transform:translateY(8px);opacity:.3}}
+
+/* phone with video */
+.vstage{position:relative;display:grid;place-items:center}
+.vstage::before{content:"";position:absolute;width:520px;height:520px;max-width:150%;border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,.34),transparent 65%)}
+.vphone{position:relative;height:min(74svh,690px);aspect-ratio:9/19.4;max-width:100%;border-radius:48px;background:#141110;padding:10px;box-shadow:0 60px 100px -40px rgba(60,40,15,.7),inset 0 0 0 1.5px #3a322b}
+.vphone video{width:100%;height:100%;object-fit:cover;border-radius:38px;display:block;background:#2a2622}
+.vphone .tag{position:absolute;left:50%;bottom:-34px;transform:translateX(-50%);white-space:nowrap;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.scan-ring{position:absolute;inset:-14px;border-radius:58px;border:1px solid rgba(176,138,79,.35);pointer-events:none}
+.scan-ring::after{content:"";position:absolute;left:12%;right:12%;height:2px;top:0;background:linear-gradient(90deg,transparent,var(--gold),transparent);animation:scan2 4s ease-in-out infinite;opacity:.7}
+@keyframes scan2{0%,100%{top:6%}50%{top:94%}}
+
+/* readout */
+.readout{position:relative;min-height:380px}
+.ro{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:10px;opacity:0;transform:translateX(14px);transition:opacity .45s var(--ease),transform .45s var(--ease)}
+.ro.on{opacity:1;transform:none}
+.ro-h{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;padding:0 2px}
+.m{background:rgba(255,252,247,.9);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--line);border-radius:16px;padding:13px 15px;display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:baseline}
+.m span{font-size:12.5px;color:var(--ink-2)}
+.m b{font-family:var(--mono);font-weight:500;font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.m b small{font-size:11px;color:var(--muted);margin-left:3px;letter-spacing:0}
+.m i{grid-column:1/-1;font-style:normal;font-size:11px;color:var(--muted)}
+.m .bar{grid-column:1/-1;height:4px;border-radius:4px;background:var(--cream-2);margin-top:6px;overflow:hidden}
+.m .bar::after{content:"";display:block;height:100%;width:var(--v);background:var(--grad-gold);border-radius:4px}
+.m.ok b{color:var(--ok);font-size:14px}
+.m.big b{font-size:34px}
+.exp{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:6px;background:var(--gold-soft);color:var(--gold-3);margin-left:6px}
+
+/* progress rail */
+.rail{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);display:flex;gap:6px;z-index:5}
+.rail button{appearance:none;border:0;padding:8px 0;background:none;cursor:pointer;width:34px}
+.rail button i{display:block;height:3px;border-radius:3px;background:rgba(142,107,54,.22);overflow:hidden}
+.rail button i::after{content:"";display:block;height:100%;width:var(--f,0%);background:var(--gold)}
+.rail button:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+.rail-label{position:absolute;left:50%;bottom:48px;transform:translateX(-50%);font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-3);white-space:nowrap}
+
+@media (max-width:1080px){.stage-grid{grid-template-columns:1fr auto;gap:36px}.readout{display:none}}
+@media (max-width:760px){
+  .scrolly{height:calc(var(--chapters) * 70svh + 100svh)}
+  .stage-x{padding-top:70px}
+  .nav .wrap{height:70px}
+  .stage-grid{grid-template-columns:1fr;grid-template-rows:auto 1fr;gap:14px;align-items:start;padding-top:10px}
+  .vstage{order:-1}
+  .vphone{height:min(47svh,440px);border-radius:34px;padding:7px}
+  .vphone video{border-radius:28px}
+  .vphone .tag{display:none}
+  .scan-ring{inset:-9px;border-radius:42px}
+  .vstage::before{width:340px;height:340px}
+  .chaps{min-height:0;height:100%}
+  .chap{justify-content:flex-start;text-align:center;align-items:center}
+  .chap h2{font-size:clamp(24px,7vw,32px);margin:8px 0 8px}
+  .chap p{font-size:14.5px;max-width:40ch}
+  .chap.intro h1{font-size:clamp(28px,8.4vw,40px);margin:8px 0 10px}
+  .chap.intro .hero-ctas{margin-top:14px;justify-content:center}
+  .chap.intro .btn{padding:13px 20px;font-size:11.5px}
+  .m-hide{display:none}
+  .cue{display:none}
+  .chip-row{display:flex!important}
+  .rail{bottom:10px}
+  .rail button{width:24px}
+  .rail-label{display:none}
+}
+.chip-row{display:none;flex-wrap:wrap;justify-content:center;gap:6px;margin-top:10px}
+.chip-row span{font-family:var(--mono);font-size:11px;padding:5px 9px;border-radius:999px;background:var(--paper);border:1px solid var(--line);color:var(--ink);font-variant-numeric:tabular-nums}
+.chip-row span em{font-style:normal;color:var(--muted);margin-right:4px}
+
+/* =================================================================
+   PRECISION DATA SECTION
+   ================================================================= */
+.prec{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.prec-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;margin-top:56px}
+.pcard{background:var(--cream);border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.pcard.darkc{background:var(--dark);color:var(--cream);border-color:var(--dark-line)}
+.pcard .tagm{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-3)}
+.pcard.darkc .tagm{color:var(--gold-2)}
+.pcard h3{font-size:22px;font-weight:800;line-height:1.15}
+.pcard p{margin:0;font-size:15px;color:var(--ink-2)}
+.pcard.darkc p{color:#CDBFAE}
+.vitals{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.vt{border:1px solid var(--dark-line);border-radius:14px;padding:12px;background:rgba(255,255,255,.03)}
+.vt span{display:block;font-size:11px;color:#BBAA95;line-height:1.3}
+.vt b{display:block;font-family:var(--mono);font-weight:500;font-size:24px;color:var(--cream);font-variant-numeric:tabular-nums;margin-top:6px;letter-spacing:-.02em}
+.vt b small{font-size:11px;color:#BBAA95;margin-left:3px;letter-spacing:0}
+.vt i{display:block;font-style:normal;font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-2);margin-top:4px}
+.wave{width:100%;height:84px;display:block}
+.wave-wrap{border:1px solid var(--dark-line);border-radius:14px;padding:10px 12px 6px;background:rgba(255,255,255,.02)}
+.wave-wrap .k{display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#BBAA95}
+.fine{font-size:12px!important;color:#A8998A!important;font-style:italic}
+.pcard .fine-l{font-size:12px;color:var(--muted);font-style:italic;margin:0}
+.chart2{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 14px 8px}
+.chart2 svg{width:100%;height:auto;display:block}
+.chart2 .lg{display:flex;gap:16px;font-size:11.5px;color:var(--ink-2);margin-bottom:6px;flex-wrap:wrap}
+.chart2 .lg i{display:inline-block;width:14px;height:3px;border-radius:2px;vertical-align:middle;margin-right:6px}
+.qlist{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.qlist li{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:11px 14px;background:#fff;border:1px solid var(--line);border-radius:14px;font-size:14px}
+.qlist li b{font-weight:600}
+.qlist li code{font-family:var(--mono);font-size:12px;color:var(--ok)}
+.qlist li svg{width:20px;height:20px;color:var(--gold-3)}
+.labs{display:grid;gap:8px}
+.lab{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:11px 14px;background:#fff;border:1px solid var(--line);border-radius:14px;font-size:13.5px}
+.lab span{color:var(--muted);font-size:12px}
+.lab b{font-family:var(--mono);font-weight:500;font-variant-numeric:tabular-nums}
+.lab em{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border-radius:6px;background:var(--gold-soft);color:var(--gold-3)}
+.span2{grid-column:1/-1}
+@media (max-width:900px){.prec-grid{grid-template-columns:1fr}.vitals{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:420px){.pcard{padding:20px}}
+
+@media (prefers-reduced-motion:reduce){.chap,.ro{transition:none}}
+[hidden]{display:none!important}
+/* ===== v2: on-screen pins, scroll motion, page progress ===== */
+.pagebar{position:fixed;left:0;top:0;height:2px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:var(--grad-gold);z-index:60;pointer-events:none}
+.chaps{min-height:520px}
+.vphone{transform-style:preserve-3d;transition:transform .2s linear;will-change:transform}
+.pins{position:absolute;inset:10px;border-radius:38px;pointer-events:none;z-index:3}
+.pin{position:absolute;width:26px;height:26px;margin:-13px 0 0 -13px;border-radius:50%;background:var(--grad-gold);color:#fff;font-family:var(--mono);font-size:12px;font-weight:500;display:grid;place-items:center;box-shadow:0 0 0 2px rgba(255,252,247,.9),0 8px 18px -6px rgba(0,0,0,.5);opacity:0;transform:scale(.4);transition:opacity .35s var(--ease),transform .35s var(--ease)}
+.pin::before{content:"";position:absolute;inset:-6px;border-radius:50%;border:1.5px solid var(--gold-2);animation:ring 2s ease-out infinite}
+.pin.on{opacity:1;transform:none}
+.pin.hl{transform:scale(1.25)}
+.seen{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:8px;max-width:48ch}
+.seen-h{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 -14px;padding-top:26px}
+.seen li{display:grid;grid-template-columns:26px 1fr;gap:12px;align-items:start;padding:9px 12px;border-radius:14px;border:1px solid transparent;opacity:.38;transition:opacity .35s,background .35s,border-color .35s;cursor:default}
+.seen li i{width:26px;height:26px;border-radius:50%;border:1.5px solid var(--gold);color:var(--gold-3);font-style:normal;font-family:var(--mono);font-size:12px;display:grid;place-items:center;transition:background .35s,color .35s}
+.seen li b{display:block;font-size:14px;font-weight:600;color:var(--ink);line-height:1.3}
+.seen li span{display:block;font-size:13px;color:var(--ink-2);line-height:1.45}
+.seen li.done{opacity:.7}
+.seen li.on{opacity:1;background:rgba(255,252,247,.85);border-color:var(--line)}
+.seen li.on i{background:var(--grad-gold);border-color:transparent;color:#fff}
+@media (max-width:1080px){.chaps{min-height:560px}}
+@media (max-width:760px){
+  .chaps{min-height:0}
+  .chap p.lead-c{display:none}
+  .seen-h{display:none}
+  .seen{margin:6px auto 0;text-align:left}
+  .seen li{display:none;opacity:1;background:var(--paper);border-color:var(--line)}
+  .seen li.on{display:grid}
+  .seen li.on ~ li.on{display:none}
+  .pin{width:22px;height:22px;margin:-11px 0 0 -11px;font-size:11px}
+  .pins{inset:7px;border-radius:28px}
+}
+
+/* ===== Savia section ===== */
+.savia-sec{background:linear-gradient(180deg,var(--cream-2),var(--cream))}
+.sv-grid{display:grid;grid-template-columns:1fr 420px;gap:60px;align-items:center}
+.sv-list{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:14px}
+.sv-list li{display:grid;grid-template-columns:40px 1fr;gap:14px;align-items:start}
+.sv-list .ic{width:40px;height:40px;border-radius:12px;background:var(--gold-soft);color:var(--gold-3);display:grid;place-items:center}
+.sv-list .ic svg{width:20px;height:20px}
+.sv-list b{display:block;font-family:Montserrat,sans-serif;font-size:15.5px}
+.sv-list span{font-size:14.5px;color:var(--ink-2)}
+.savia-sec .savia-card{box-shadow:var(--shadow);border:1px solid var(--line)}
+.sc-note{font-size:12px;color:var(--muted);text-align:center;margin:0}
+@media (max-width:900px){.sv-grid{grid-template-columns:1fr;gap:36px}}
+
+/* ===== Demo form ===== */
+.demo-form{position:relative;z-index:1;background:var(--paper);color:var(--ink);border-radius:26px;padding:28px;box-shadow:0 40px 80px -30px rgba(0,0,0,.75);display:grid;gap:14px}
+.demo-form h3{font-size:20px;font-weight:800}
+.df-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.df-f{display:grid;gap:6px;min-width:0}
+.df-f label{font-size:12px;font-weight:600;color:var(--ink-2);letter-spacing:.02em}
+.df-f input,.df-f select{font:inherit;font-size:15px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:#fff;color:var(--ink);outline:0;width:100%}
+.df-f input:focus,.df-f select:focus{border-color:var(--gold);box-shadow:0 0 0 4px var(--gold-soft)}
+.df-err{font-size:13px;color:#A24A3A;min-height:1em;margin:0}
+.df-ok{display:grid;gap:12px;text-align:center;padding:20px 6px}
+.df-ok b{font-family:Montserrat,sans-serif;font-size:20px}
+.df-ok p{margin:0;color:var(--ink-2)}
+.demo-form .btn{width:100%}
+@media (max-width:520px){.df-row{grid-template-columns:1fr}.demo-form{padding:22px 18px}}
+.sos{align-self:stretch;border:1.5px solid #A24A3A;background:#FBF1EE;border-radius:18px;padding:12px 14px;font-size:13.5px;color:#7A3326;animation:pop .3s var(--ease)}
+.sos b{display:block;font-family:Montserrat,sans-serif;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}
+
+</style>
+</head>
+<body>
+
+<!-- SVG icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><path d="M8 13h.01M12 13h.01M16 13h.01M8 16.5h.01M12 16.5h.01"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5H9l2 2.5h7.5A2.5 2.5 0 0 1 21 10v7.5a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5z"/><circle cx="12" cy="12.6" r="1.8"/><path d="M9 17c.6-1.4 1.7-2 3-2s2.4.6 3 2"/></symbol>
+    <symbol id="i-face" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-4 0-6.5 3.3-6.5 8 0 5 3 10 6.5 10s6.5-5 6.5-10c0-4.7-2.5-8-6.5-8z"/><path d="M9 10.5c.6-.4 1.4-.4 2 0M13 10.5c.6-.4 1.4-.4 2 0M12 12v3M10.5 17.5c.9.5 2.1.5 3 0"/><circle cx="5.5" cy="11" r=".9" fill="currentColor"/><circle cx="12" cy="3" r=".9" fill="currentColor"/><path d="M5.5 11 12 3"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 0 1-11.6 7.1L4 20l1-4A8 8 0 1 1 20 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 17 9 11.5l3.5 3.5 8-8"/><path d="M15 7h5.5v5.5"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5s6 6.4 6 10.5a6 6 0 0 1-12 0c0-4.1 6-10.5 6-10.5z"/><path d="M9.5 14.5a2.6 2.6 0 0 0 2.5 2.5"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 16V11a6 6 0 1 1 12 0v5l1.5 2h-15z"/><path d="M10 20.5a2 2 0 0 0 4 0"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8h14l-1 12.5H6z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10.5 12 4l8 6.5V20H4z"/><path d="M10 20v-5h4v5"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.5" r="3.8"/><path d="M4.5 20c1.4-3.6 4.2-5.2 7.5-5.2s6.1 1.6 7.5 5.2"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.5" r="3.3"/><path d="M3 19.5c1-3 3.3-4.5 6-4.5s5 1.5 6 4.5"/><path d="M15.5 5.5a3.2 3.2 0 0 1 0 6.2M17.5 15.3c1.7.6 2.9 2 3.5 4.2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m8 12.3 2.7 2.7L16.3 9.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6M15 9l-6 6"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V5M16 20v-7M21 20H3"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 10 14"/><path d="M21 3 14.5 21l-4.5-7-7-4.5z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></symbol>
+    <symbol id="i-ruler" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 16.5 16.5 3 21 7.5 7.5 21z"/><path d="m7 12.5 2 2M10 9.5l1.5 1.5M13 6.5l2 2"/></symbol>
+    <symbol id="i-pose" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="6"/><path d="M12 4v12M6 10h12"/><path d="M8 20h8"/></symbol>
+    <symbol id="i-lab" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 18.5A1.7 1.7 0 0 0 6 21h12a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7 15h10"/></symbol>
+  </defs>
+</svg>
+
+<div class="pagebar" id="pagebar"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Clinic Management Tech, home">
+      <img src="assets/cmt-logo.png" alt="" width="30" height="42">
+      <span class="sep"></span>
+      <span class="wordmark">Clinic<br>Management<br>Tech</span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Main">
+      <a href="#measurements">Measurements</a>
+      <a href="#connected">Platform</a>
+      <a href="#patients">Patient app</a>
+      <a href="#savia">Savia</a>
+      <a href="#clinics">Clinics</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-gold" href="#demo">Book a demo</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO · SCROLL-DRIVEN APP VIDEO ============ -->
+<section class="scrolly" id="scrolly" style="--chapters:9" aria-label="How the app measures a patient">
+  <div class="stage-x">
+    <div class="wrap stage-grid">
+
+      <!-- chapter copy -->
+      <div class="chaps" aria-live="polite">
+        <div class="chap intro on" data-i="0">
+          <span class="eyebrow hero-eb">Precision platform for aesthetic &amp; wellness clinics</span>
+          <h1>Measure every patient. <span class="g">Prove every result.</span></h1>
+          <p class="m-hide">Clinic Management Tech turns a phone camera into a repeatable measurement tool: 468-point facial mapping, skin data by zone and camera-based vitals, tracked visit after visit in one record your team and your patients share.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-gold" href="#demo">Book a demo <svg width="16" height="16"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn-line m-hide" href="#measurements">See the data</a>
+          </div>
+          <span class="cue"><i></i>Scroll: we explain every screen</span>
+        </div>
+
+        <div class="chap" data-i="1">
+          <span class="k">01 / 08 <b>Guided capture</b></span>
+          <h2>Same conditions, <em>every session.</em></h2>
+          <p class="lead-c">Before it takes a photo, the app checks light, distance and head pose, then captures front and profile on its own. Today's image is comparable with the next one, so changes reflect the treatment and not the lighting.</p>
+          <div class="chip-row"><span><em>Light</em>✓</span><span><em>Distance</em>✓</span><span><em>Pose</em>✓</span></div>
+        </div>
+
+        <div class="chap" data-i="2">
+          <span class="k">02 / 08 <b>Landmark detection</b></span>
+          <h2>468 points <em>on every face.</em></h2>
+          <p class="lead-c">A dense facial mesh locates eyes, brows, nose, lips and jawline. Every metric that follows is calculated from these landmarks, not estimated by eye.</p>
+          <div class="chip-row"><span><em>Landmarks</em>468</span></div>
+        </div>
+
+        <div class="chap" data-i="3">
+          <span class="k">03 / 08 <b>Structure</b></span>
+          <h2>Proportion, thirds <em>and fifths.</em></h2>
+          <p class="lead-c">The face is divided into vertical thirds and horizontal fifths and compared against classical proportion references, giving the doctor a numeric starting point for planning.</p>
+          <div class="chip-row"><span><em>Proportion</em>0.92</span><span><em>Thirds</em>81</span></div>
+        </div>
+
+        <div class="chap" data-i="4">
+          <span class="k">04 / 08 <b>Balance</b></span>
+          <h2>Left–right symmetry, <em>scored.</em></h2>
+          <p class="lead-c">The midline is traced and each side is mirrored point by point. The symmetry score shows whether a treatment is bringing the face into better balance.</p>
+          <div class="chip-row"><span><em>Symmetry</em>94.7 / 100</span></div>
+        </div>
+
+        <div class="chap" data-i="5">
+          <span class="k">05 / 08 <b>Skin</b></span>
+          <h2>Skin data, <em>zone by zone.</em></h2>
+          <p class="lead-c">Forehead, cheeks, T-zone, chin and eye contour are read separately for luminosity, redness, uniformity, pores and fine lines. Each zone gets its own number to track.</p>
+          <div class="chip-row"><span><em>Forehead</em>0.74</span><span><em>Redness</em>0.13</span><span><em>Chin</em>0.74</span></div>
+        </div>
+
+        <div class="chap" data-i="6">
+          <span class="k">06 / 08 <b>Profile</b></span>
+          <h2>Profile angles, <em>in degrees.</em></h2>
+          <p class="lead-c">From the side photo the app measures the nasofrontal and nasolabial angles, the reference values for rhinoplasty, filler and harmonization planning.</p>
+          <div class="chip-row"><span><em>Nasofrontal</em>140.8°</span><span><em>Nasolabial</em>104.9°</span></div>
+        </div>
+
+        <div class="chap" data-i="7">
+          <span class="k">07 / 08 <b>Baseline</b></span>
+          <h2>One score that <em>moves with the plan.</em></h2>
+          <p class="lead-c">Geometry and skin are summarized in a single Glow score. It is the patient's starting point, and it rises as they progress through the treatment plan.</p>
+          <div class="chip-row"><span><em>Glow</em>84</span><span><em>Day</em>0</span></div>
+        </div>
+
+        <div class="chap" data-i="8">
+          <span class="k">08 / 08 <b>Report</b></span>
+          <h2>Day 0 is saved. <em>Every visit compares to it.</em></h2>
+          <p class="lead-c">The patient receives a plain-language report in their app. The clinic keeps the photos and every metric in the record, so the next check-up shows exactly what changed.</p>
+          <div class="chip-row"><span><em>Photos</em>2</span><span><em>Metrics</em>14</span><span><em>Next</em>auto-compare</span></div>
+        </div>
+      </div>
+
+      <!-- phone -->
+      <div class="vstage">
+        <div class="vphone">
+          <span class="scan-ring" aria-hidden="true"></span>
+          <div class="pins" id="pins" aria-hidden="true"></div>
+          <video id="scrub" muted playsinline preload="auto" poster="assets/hero-poster.jpg" aria-label="Screen recording of the facial analysis in the patient app"></video>
+        </div>
+      </div>
+
+      <!-- live readout -->
+      <div class="readout" aria-hidden="true">
+        <div class="ro on" data-i="0">
+          <div class="ro-h"><span>Measured per visit</span><span>14 metrics</span></div>
+          <div class="m"><span>Facial landmarks</span><b>468</b></div>
+          <div class="m"><span>Skin zones</span><b>5</b></div>
+          <div class="m"><span>Profile angles</span><b>2</b></div>
+          <div class="m"><span>Camera vitals</span><b>4</b></div>
+        </div>
+        <div class="ro" data-i="1">
+          <div class="ro-h"><span>Capture checks</span><span>Photo 1 of 2</span></div>
+          <div class="m ok"><span>Light</span><b>Pass</b><i>Even illumination on both sides</i></div>
+          <div class="m ok"><span>Distance</span><b>Pass</b><i>Face fills the guide oval</i></div>
+          <div class="m ok"><span>Pose</span><b>Pass</b><i>Front, then ~45° profile</i></div>
+        </div>
+        <div class="ro" data-i="2">
+          <div class="ro-h"><span>Recognition</span><span>Front photo</span></div>
+          <div class="m big"><span>Landmarks</span><b>468</b><i>Brows, eyes, nose, lips, jawline, contour</i></div>
+        </div>
+        <div class="ro" data-i="3">
+          <div class="ro-h"><span>Structure</span><span>Front photo</span></div>
+          <div class="m big"><span>Proportion index</span><b>0.92</b><div class="bar" style="--v:92%"></div></div>
+          <div class="m"><span>Facial thirds</span><b>81</b><div class="bar" style="--v:81%"></div></div>
+        </div>
+        <div class="ro" data-i="4">
+          <div class="ro-h"><span>Balance</span><span>Midline</span></div>
+          <div class="m big"><span>Symmetry</span><b>94.7<small>/100</small></b><div class="bar" style="--v:94.7%"></div></div>
+        </div>
+        <div class="ro" data-i="5">
+          <div class="ro-h"><span>Skin by zone</span><span>Index 0–1</span></div>
+          <div class="m"><span>Forehead · luminosity</span><b>0.74</b></div>
+          <div class="m"><span>Cheek · redness</span><b>0.13</b></div>
+          <div class="m"><span>T-zone · pores <em class="exp">beta</em></span><b>—</b></div>
+          <div class="m"><span>Chin · uniformity</span><b>0.74</b></div>
+          <div class="m"><span>Eye contour · fine lines</span><b>0.00</b></div>
+        </div>
+        <div class="ro" data-i="6">
+          <div class="ro-h"><span>Profile</span><span>Side photo</span></div>
+          <div class="m big"><span>Nasofrontal angle</span><b>140.8°</b></div>
+          <div class="m"><span>Nasolabial angle</span><b>104.9°</b></div>
+        </div>
+        <div class="ro" data-i="7">
+          <div class="ro-h"><span>Baseline</span><span>Day 0</span></div>
+          <div class="m big"><span>Glow score</span><b>84</b><div class="bar" style="--v:84%"></div><i>Combines geometry and skin readings</i></div>
+        </div>
+        <div class="ro" data-i="8">
+          <div class="ro-h"><span>Saved to record</span><span>Day 0</span></div>
+          <div class="m"><span>Photos (front + profile)</span><b>2</b></div>
+          <div class="m"><span>Metrics stored</span><b>14</b></div>
+          <div class="m"><span>Next visit</span><b style="font-size:14px">Auto-compare</b></div>
+        </div>
+      </div>
+
+    </div>
+    <span class="rail-label" id="rail-label">Overview</span>
+    <div class="rail" id="rail" aria-label="Jump to step"></div>
+  </div>
+</section>
+
+<!-- ============ MODULES ============ -->
+<section class="strip" aria-label="Modules">
+  <div class="wrap mods">
+    <div class="mod rv"><div class="ic"><svg><use href="#i-face"/></svg></div><b>Facial analysis</b><span>468 points</span></div>
+    <div class="mod rv d1"><div class="ic"><svg><use href="#i-heart"/></svg></div><b>Camera vitals</b><span>Pulse, breathing, BP trend</span></div>
+    <div class="mod rv d2"><div class="ic"><svg><use href="#i-trend"/></svg></div><b>Progress</b><span>Every visit vs. Day 0</span></div>
+    <div class="mod rv d3"><div class="ic"><svg><use href="#i-folder"/></svg></div><b>Records</b><span>Photos, metrics, labs</span></div>
+    <div class="mod rv d3"><div class="ic"><svg><use href="#i-phone"/></svg></div><b>Patient app</b><span>Your clinic in their pocket</span></div>
+  </div>
+</section>
+
+<!-- ============ PRECISION DATA ============ -->
+<section class="prec pad" id="measurements">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow both rv">Precision data</span>
+      <h2 class="h-sec rv d1">Measured, <em>not guessed.</em></h2>
+      <p class="lead rv d2">Results are easier to trust when they are numbers captured the same way every time. Every reading is stored with the conditions it was taken in, so progress is something you can show, not something you describe.</p>
+    </div>
+
+    <div class="prec-grid">
+      <!-- vitals -->
+      <article class="pcard darkc rv">
+        <span class="tagm">Camera-based vitals · rPPG</span>
+        <h3>Pulse, breathing and blood pressure trend from a 30-second face scan.</h3>
+        <p>Each heartbeat changes skin color by amounts too small to see. The camera reads that signal from the forehead and cheeks to estimate heart rate, heart-rate variability and breathing rate, plus a blood pressure trend over time.</p>
+        <div class="wave-wrap">
+          <div class="k"><span>Pulse signal · forehead ROI</span><span id="hr-live">68 bpm</span></div>
+          <canvas class="wave" id="wave" aria-label="Animated pulse waveform, example"></canvas>
+        </div>
+        <div class="vitals">
+          <div class="vt"><span>Heart rate</span><b>68<small>bpm</small></b><i>Resting</i></div>
+          <div class="vt"><span>Breathing rate</span><b>14<small>/min</small></b><i>Normal range</i></div>
+          <div class="vt"><span>HRV (RMSSD)</span><b>52<small>ms</small></b><i>Stress: low</i></div>
+          <div class="vt"><span>Blood pressure</span><b>118/76<small>est.</small></b><i>Trend only</i></div>
+        </div>
+        <p class="fine">Example values. Camera vitals are wellness estimates that support the professional's judgment; confirm clinical blood pressure with a validated cuff.</p>
+      </article>
+
+      <!-- data quality -->
+      <article class="pcard rv d1">
+        <span class="tagm">Data quality</span>
+        <h3>Every reading carries its capture conditions.</h3>
+        <p>If light, distance or pose is outside tolerance, the app asks for a retake instead of saving a weak measurement. That is what makes Week 8 comparable with Day 0.</p>
+        <ul class="qlist">
+          <li><svg><use href="#i-sun"/></svg><b>Lighting balance</b><code>pass · 0.96</code></li>
+          <li><svg><use href="#i-ruler"/></svg><b>Face distance</b><code>pass · 32 cm</code></li>
+          <li><svg><use href="#i-pose"/></svg><b>Head pose (yaw / pitch)</b><code>pass · 2° / 1°</code></li>
+          <li><svg><use href="#i-heart"/></svg><b>Vitals signal quality</b><code>pass · 0.91</code></li>
+        </ul>
+        <p class="fine-l">Example capture log from one session.</p>
+      </article>
+
+      <!-- progress -->
+      <article class="pcard rv">
+        <span class="tagm">Progress tracking</span>
+        <h3>Each visit is plotted against the patient's own baseline.</h3>
+        <p>Scores, skin zones and vitals become a timeline the doctor reviews in the record and the patient sees in their app. A plateau shows up early, while there is still time to adjust the plan.</p>
+        <div class="chart2">
+          <div class="lg"><span><i style="background:var(--gold)"></i>Glow score</span><span><i style="background:var(--ink-2)"></i>Cheek redness (×100)</span></div>
+          <svg id="prog" viewBox="0 0 440 200" role="img" aria-label="Example patient: Glow score rises from 84 to 91 and cheek redness falls from 13 to 6 between Day 0 and Week 12"></svg>
+        </div>
+        <p class="fine-l">Example patient, four visits over 12 weeks.</p>
+      </article>
+
+      <!-- labs -->
+      <article class="pcard rv d1">
+        <span class="tagm">Labs &amp; biomarkers</span>
+        <h3>Blood work and longevity tests in the same timeline.</h3>
+        <p>Upload lab panels, biological-age and epigenetic reports from partner tests next to the facial and vitals data. The doctor sees the inside and the outside of the patient in one place.</p>
+        <div class="labs">
+          <div class="lab"><div>Biological age<br><span>Epigenetic test</span></div><b>38</b><em>−4 vs. chronological</em></div>
+          <div class="lab"><div>hs-CRP<br><span>Inflammation</span></div><b>0.8 mg/L</b><em>Low</em></div>
+          <div class="lab"><div>Vitamin D (25-OH)<br><span>Blood panel</span></div><b>34 ng/mL</b><em>Sufficient</em></div>
+          <div class="lab"><div>HbA1c<br><span>Glucose control</span></div><b>5.2 %</b><em>Normal</em></div>
+        </div>
+        <p class="fine-l">Example record. Results are entered or uploaded by the clinic.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONNECTED (dark) ============ -->
+<section class="dark pad" id="connected">
+  <div class="wrap center">
+    <span class="eyebrow both rv">One platform</span>
+    <h2 class="h-sec rv d1">Every patient, one <em>connected story.</em></h2>
+    <p class="lead rv d2">What the doctor measures, the clinic manages and the patient follows in their app. No loose spreadsheets, no lost chats, no data entered twice.</p>
+
+    <div class="hub">
+      <div class="hub-col">
+        <article class="role rv" style="text-align:left">
+          <span class="tag">The clinic</span>
+          <h3>Run everything from one dashboard</h3>
+          <ul><li>Every professional's schedule</li><li>Treatment and product sales</li><li>Automatic reminders</li></ul>
+        </article>
+        <article class="role rv d1" style="text-align:left">
+          <span class="tag">The doctor</span>
+          <h3>Assess with real numbers</h3>
+          <ul><li>Photos, metrics and labs in one record</li><li>Facial analysis and camera vitals</li><li>Instructions that reach the patient</li></ul>
+        </article>
+      </div>
+
+      <div class="hub-core rv d1" aria-hidden="true">
+        <span class="ring"></span><span class="ring r2"><span class="dot" style="top:-4px;left:50%"></span><span class="dot" style="bottom:12%;left:6%"></span><span class="dot" style="bottom:12%;right:6%"></span></span><span class="ring r3"></span>
+        <img src="assets/cmt-logo.png" alt="">
+      </div>
+
+      <div class="hub-col">
+        <article class="role rv d2" style="text-align:left">
+          <span class="tag">The patient</span>
+          <h3>Their clinic, in their pocket</h3>
+          <ul><li>Books and confirms appointments</li><li>Sees their progress and routine</li><li>Messages the clinic when needed</li></ul>
+        </article>
+        <article class="role rv d3" style="text-align:left">
+          <span class="tag">Artificial intelligence</span>
+          <h3>Answers and follows up</h3>
+          <ul><li>Answers frequent questions</li><li>Flags when the next check-up is due</li><li>Frees up your team's time</li></ul>
+        </article>
+      </div>
+
+      <div class="hub-flow rv">
+        <span>Scheduling</span><span>Records</span><span>Measurements</span><span>Follow-up</span><span>Sales</span><span>Messages</span><span>Home routine</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PATIENT APP ============ -->
+<section class="pad" id="patients">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow both rv">Patient app</span>
+      <h2 class="h-sec rv d1">Your clinic, in your <em>patients' pocket.</em></h2>
+      <p class="lead rv d2">Care continues at home. Patients follow their professional's instructions, watch their numbers improve and come back to your clinic.</p>
+    </div>
+
+    <div class="feat-grid">
+      <div class="feat-list" role="tablist" aria-label="App features">
+        <div class="feat on rv" role="tab" tabindex="0" aria-selected="true" data-pane="p-appts">
+          <span class="ic"><svg><use href="#i-cal"/></svg></span>
+          <div><h3>My appointments</h3><p>Book, confirm or reschedule without calling. Automatic reminders cut no-shows.</p></div>
+        </div>
+        <div class="feat rv d1" role="tab" tabindex="0" aria-selected="false" data-pane="p-prog">
+          <span class="ic"><svg><use href="#i-trend"/></svg></span>
+          <div><h3>My progress</h3><p>Every treatment's evolution, with photos, scores and notes from their professional, on one timeline.</p></div>
+        </div>
+        <div class="feat rv d2" role="tab" tabindex="0" aria-selected="false" data-pane="p-face">
+          <span class="ic"><svg><use href="#i-face"/></svg></span>
+          <div><h3>Facial analysis</h3><p>468-point mapping of facial proportions, symmetry and skin. A tool that supports the professional assessment.</p></div>
+        </div>
+        <div class="feat rv d3" role="tab" tabindex="0" aria-selected="false" data-pane="p-rout">
+          <span class="ic"><svg><use href="#i-drop"/></svg></span>
+          <div><h3>Skincare routine</h3><p>Morning and night, prescribed products and reminders, with weekly adherence tracking.</p></div>
+        </div>
+        <div class="feat rv d3" role="tab" tabindex="0" aria-selected="false" data-pane="p-chat">
+          <span class="ic"><svg><use href="#i-chat"/></svg></span>
+          <div><h3>Messages &amp; AI</h3><p>A direct line to the clinic and an assistant that answers common questions instantly.</p></div>
+        </div>
+      </div>
+
+      <div class="demo-phone rv d1">
+        <div class="phone"><div class="screen">
+          <div class="sb"><span>9:41</span><span>●●● ▮</span></div>
+
+          <div class="pane on" id="p-appts">
+            <h4>My appointments</h4>
+            <div class="row"><span class="av">TH</span><div><b>Post-treatment check-up</b><span>Thursday · 10:30 a.m.</span></div><span class="pill">Confirmed</span></div>
+            <div class="row"><span class="av">MO</span><div><b>Deep facial cleansing</b><span>Monday 18 · 4:00 p.m.</span></div><span class="pill">Pending</span></div>
+            <div class="row"><span class="av">TU</span><div><b>Assessment</b><span>Tuesday 26 · 9:00 a.m.</span></div><span class="pill">New</span></div>
+            <div style="margin:16px 14px 0;padding:14px;border-radius:16px;border:1.5px dashed var(--gold);text-align:center;font-size:11.5px;color:var(--gold-3);font-weight:600">+ Book a new appointment</div>
+          </div>
+
+          <div class="pane" id="p-prog">
+            <h4>My progress</h4>
+            <div class="chart">
+              <div class="k"><span>Glow score</span><b style="color:var(--gold-3)">84 → 91</b></div>
+              <svg viewBox="0 0 220 90" preserveAspectRatio="none"><defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B08A4F" stop-opacity=".35"/><stop offset="1" stop-color="#B08A4F" stop-opacity="0"/></linearGradient></defs><path d="M0 75 C30 70,50 62,75 58 S120 40,150 34 S195 18,220 12 V90 H0Z" fill="url(#ga)"/><path d="M0 75 C30 70,50 62,75 58 S120 40,150 34 S195 18,220 12" fill="none" stroke="#B08A4F" stroke-width="2.2"/></svg>
+              <div class="k"><span>Day 0</span><span>Week 6</span><span>Week 12</span></div>
+            </div>
+            <div class="row"><span class="av">✓</span><div><b>Session 3 of 4</b><span>Note from your professional</span></div></div>
+            <div class="row"><span class="av">◎</span><div><b>Progress photos</b><span>Compare Day 0 and today</span></div><span class="pill">View</span></div>
+          </div>
+
+          <div class="pane" id="p-face">
+            <h4>Facial analysis</h4>
+            <div class="face-box">
+              <svg viewBox="0 0 200 240" fill="none">
+                <path d="M100 18c-42 0-64 32-64 78 0 56 32 124 64 124s64-68 64-124c0-46-22-78-64-78z" stroke="#8E6B36" stroke-width="2"/>
+                <path d="M62 96c8-6 22-6 30 0M108 96c8-6 22-6 30 0" stroke="#8E6B36" stroke-width="2.2" stroke-linecap="round"/>
+                <path d="M100 104v38M90 146c6 4 14 4 20 0M84 172c10 6 22 6 32 0" stroke="#8E6B36" stroke-width="2" stroke-linecap="round"/>
+                <g stroke="#B08A4F" stroke-width=".9" opacity=".8"><path d="M100 18 60 60 36 96 56 150 100 220 144 150 164 96 140 60Z"/><path d="M60 60 100 104 140 60M36 96 100 104 164 96M56 150 100 142 144 150M100 104 56 150M100 104 144 150"/></g>
+                <g fill="#B08A4F"><circle cx="100" cy="18" r="3.5"/><circle cx="60" cy="60" r="3"/><circle cx="140" cy="60" r="3"/><circle cx="36" cy="96" r="3"/><circle cx="164" cy="96" r="3"/><circle cx="100" cy="104" r="3"/><circle cx="56" cy="150" r="3"/><circle cx="144" cy="150" r="3"/><circle cx="100" cy="142" r="2.5"/><circle cx="100" cy="220" r="3.5"/></g>
+              </svg>
+              <span class="scanline"></span>
+            </div>
+            <div class="face-stats"><div><b>468</b><span>points</span></div><div><b>94.7</b><span>symmetry</span></div><div><b>84</b><span>glow</span></div></div>
+            <p class="disc">Supports the professional assessment</p>
+          </div>
+
+          <div class="pane" id="p-rout">
+            <div class="routine" style="padding-top:0">
+              <b style="font-family:Montserrat;font-size:17px;font-weight:800">Your routine</b>
+              <div class="tabs"><span>MORNING</span><span class="on">NIGHT</span></div>
+              <div class="step"><span class="c ok"></span><div><b>Remove makeup</b><span>Micellar water</span></div></div>
+              <div class="step"><span class="c ok"></span><div><b>Cleanse</b><span>Gentle gel · 1 min</span></div></div>
+              <div class="step"><span class="c"></span><div><b>Treatment</b><span>Prescribed by your professional</span></div></div>
+              <div class="step"><span class="c"></span><div><b>Moisturize</b><span>Repair cream</span></div></div>
+              <p style="font-size:10px;color:var(--muted);margin:14px 0 0">Weekly adherence</p>
+              <div class="week"><i class="on">M</i><i class="on">T</i><i class="on">W</i><i class="on">T</i><i class="on">F</i><i>S</i><i>S</i></div>
+            </div>
+          </div>
+
+          <div class="pane" id="p-chat">
+            <h4>Messages</h4>
+            <div class="chat">
+              <div class="bub out">Can I wear makeup after today's session?</div>
+              <div class="bub ai"><small>AI assistant</small>We recommend waiting 24 hours. If you notice redness, apply the cream from your routine.</div>
+              <div class="bub out">Perfect, thanks. And sunscreen?</div>
+              <div class="bub in"><small>Clinic</small>Yes, SPF 50 starting tomorrow morning. See you Thursday!</div>
+            </div>
+          </div>
+
+          <div class="app-nav"><svg class="on"><use href="#i-home"/></svg><svg><use href="#i-cal"/></svg><svg><use href="#i-chat"/></svg><svg><use href="#i-user"/></svg></div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAVIA · PATIENT ASSISTANT ============ -->
+<section class="savia-sec pad" id="savia">
+  <div class="wrap sv-grid">
+    <div>
+      <span class="eyebrow rv">AI patient assistant</span>
+      <h2 class="h-sec rv d1">Meet Savia. <em>She talks to your patients.</em></h2>
+      <p class="lead rv d2">Savia answers your patients day and night, in your clinic's voice. She explains their analysis in plain words, sends aftercare instructions, keeps their routine on track and books their next check-up. Your team sees every conversation and can step in at any time.</p>
+      <ul class="sv-list">
+        <li class="rv"><span class="ic"><svg><use href="#i-face"/></svg></span><div><b>Explains their results</b><span>Glow score, symmetry and skin by zone, in everyday language and without diagnosing.</span></div></li>
+        <li class="rv d1"><span class="ic"><svg><use href="#i-drop"/></svg></span><div><b>Aftercare and routine</b><span>What to do after each session, and reminders for morning and night care.</span></div></li>
+        <li class="rv d2"><span class="ic"><svg><use href="#i-cal"/></svg></span><div><b>Books the next check-up</b><span>Patients pick a day and time; the request lands in your clinic's schedule.</span></div></li>
+        <li class="rv d3"><span class="ic"><svg><use href="#i-bell"/></svg></span><div><b>Alerts your team</b><span>Pain, swelling or anything unusual is flagged to the clinic right away.</span></div></li>
+      </ul>
+    </div>
+    <div class="savia-card rv d1">
+      <div class="sc-top"><span class="ag-av"><img src="assets/cmt-logo.png" alt=""></span><div><b>Savia</b><span class="s">Your clinic's assistant · Online</span></div><span class="ag-badge">AI</span></div>
+      <div class="sc-bubble">Hi! I'm <b>Savia</b>. I can explain your facial analysis, help with aftercare and your routine, or book your next visit.</div>
+      <div class="sc-chips">
+        <button type="button" data-ask="Explain my results">Explain my results</button>
+        <button type="button" data-ask="Can I wear makeup after today's session?">Makeup after my session?</button>
+        <button type="button" data-ask="What is my Glow score?">What is my Glow score?</button>
+        <button type="button" data-ask="Book my next check-up">Book my next check-up</button>
+      </div>
+      <button class="btn btn-gold" type="button" data-open-savia>Chat as a patient <svg width="16" height="16"><use href="#i-arrow"/></svg></button>
+      <p class="sc-note">Demo using the example patient's Day 0 results from the top of this page.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLINIC / DOCTORS ============ -->
+<section class="clinic pad" id="clinics">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow both rv">For clinics and doctors</span>
+      <h2 class="h-sec rv d1">Your whole clinic, <em>connected.</em></h2>
+      <p class="lead rv d2">Fewer repetitive tasks, more time with patients. One dashboard for scheduling, records, measurements, sales and follow-up.</p>
+    </div>
+
+    <div class="laptop rv">
+      <div class="lid">
+        <div class="dash">
+          <aside class="side">
+            <img src="assets/cmt-logo.png" alt="">
+            <a class="on" href="#clinics"><svg><use href="#i-home"/></svg>Home</a>
+            <a href="#clinics"><svg><use href="#i-cal"/></svg>Schedule</a>
+            <a href="#clinics"><svg><use href="#i-users"/></svg>Patients</a>
+            <a href="#clinics"><svg><use href="#i-folder"/></svg>Records</a>
+            <a href="#clinics"><svg><use href="#i-face"/></svg>Measurements</a>
+            <a href="#clinics"><svg><use href="#i-bag"/></svg>Sales</a>
+            <a href="#clinics"><svg><use href="#i-chat"/></svg>Messages</a>
+            <a href="#clinics"><svg><use href="#i-spark"/></svg>AI</a>
+          </aside>
+          <div class="main">
+            <div class="main-h"><b>Good morning, Doctor</b><span>Clinic dashboard · sample view</span></div>
+            <div class="kpis">
+              <div class="kpi"><span>Today's appts</span><b>18</b><i>3 to confirm</i></div>
+              <div class="kpi"><span>Active patients</span><b>342</b><i>in follow-up</i></div>
+              <div class="kpi"><span>Avg. Glow gain</span><b>+6.2</b><i>vs. Day 0</i></div>
+              <div class="kpi"><span>Messages</span><b>24</b><i>resolved by AI</i></div>
+            </div>
+            <div class="dgrid">
+              <div class="panel">
+                <div class="t">Today's schedule <span>See all</span></div>
+                <div class="slot"><time>09:00</time><div class="bar">Facial assessment<br><em>New patient · Room 1</em></div><em>✓</em></div>
+                <div class="slot"><time>10:30</time><div class="bar b2">Post-treatment check-up<br><em>Session 3 of 4 · compare to Day 0</em></div><em>✓</em></div>
+                <div class="slot"><time>12:00</time><div class="bar b3">Deep cleansing<br><em>Cabin 2</em></div><em>•</em></div>
+                <div class="slot"><time>15:30</time><div class="bar">Facial analysis + vitals<br><em>468 points · Room 1</em></div><em>•</em></div>
+              </div>
+              <div class="panel">
+                <div class="t">Follow-up <span>AI</span></div>
+                <div class="alert"><i></i><div><b>5 patients</b> are due for their next check-up this week</div></div>
+                <div class="alert"><i></i><div><b>2 patients</b> show no Glow change in 6 weeks: review plan</div></div>
+                <div class="alert"><i></i><div><b>Tomorrow's reminders</b> sent automatically</div></div>
+                <div class="alert"><i></i><div><b>2 routines</b> with low adherence: suggest a call</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="base"></div>
+    </div>
+
+    <div class="points">
+      <div class="point rv"><span class="n">SCHEDULE</span><h3>Frictionless booking</h3><p>Patients book from the app; your team sees everything in one calendar, by professional and by room.</p></div>
+      <div class="point rv d1"><span class="n">RECORD</span><h3>One record per patient</h3><p>History, photos, measurements, labs and instructions together. The doctor finds everything in seconds.</p></div>
+      <div class="point rv d2"><span class="n">RETENTION</span><h3>Follow-up that sells</h3><p>Visible progress, routines and recommended products keep patients engaged and coming back.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEFORE / AFTER ============ -->
+<section class="pad">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow both rv">The shift</span>
+      <h2 class="h-sec rv d1">Can you show a patient <em>how much they improved?</em></h2>
+      <p class="lead rv d2">Connect your schedule, your patients and your measurements. Let the platform keep the numbers for you.</p>
+    </div>
+    <div class="vs">
+      <div class="vs-card no rv">
+        <h3>Without a platform</h3>
+        <ul>
+          <li><svg><use href="#i-x"/></svg>Before-and-after photos taken in different light</li>
+          <li><svg><use href="#i-x"/></svg>Progress described in words, not numbers</li>
+          <li><svg><use href="#i-x"/></svg>Records in paper, folders or loose files</li>
+          <li><svg><use href="#i-x"/></svg>Patients forget their routine after the visit</li>
+          <li><svg><use href="#i-x"/></svg>Nobody knows when the next check-up is due</li>
+        </ul>
+      </div>
+      <div class="vs-card yes rv d1">
+        <h3>With Clinic Management Tech</h3>
+        <ul>
+          <li><svg><use href="#i-check"/></svg>Guided capture under the same conditions every time</li>
+          <li><svg><use href="#i-check"/></svg>14 metrics per visit, compared to Day 0</li>
+          <li><svg><use href="#i-check"/></svg>Digital record with photos, vitals and labs</li>
+          <li><svg><use href="#i-check"/></svg>Routine and progress in the patient's app</li>
+          <li><svg><use href="#i-check"/></svg>Follow-up alerts and an AI assistant for your team</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="pad" id="how-it-works" style="padding-top:0">
+  <div class="wrap center">
+    <span class="eyebrow both rv">How it works</span>
+    <h2 class="h-sec rv d1">Your clinic connected <em>in three steps.</em></h2>
+    <div class="steps">
+      <div class="st rv"><div class="num">1</div><h3>We set up your clinic</h3><p>We load your services, professionals, hours and brand identity.</p></div>
+      <div class="st rv d1"><div class="num">2</div><h3>You take each patient's baseline</h3><p>One guided scan at the first visit saves the Day 0 photos, metrics and vitals, and gives the patient access to their app.</p></div>
+      <div class="st rv d2"><div class="num">3</div><h3>Every visit is measured</h3><p>Each check-up compares to the baseline. Reminders, messages and alerts go out on their own.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GEO ============ -->
+<section class="geo pad">
+  <div class="wrap geo-grid">
+    <div>
+      <span class="eyebrow rv">AI visibility</span>
+      <h2 class="h-sec rv d1">When a patient asks ChatGPT… <em>does your clinic show up?</em></h2>
+      <p class="lead rv d2">More and more patients find clinics by asking AI assistants. We help you prepare your digital presence so your clinic gets found and recommended.</p>
+      <a class="btn btn-dark rv d3" id="geo-link" href="#demo">Request your GEO diagnosis <svg width="16" height="16"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="gpt rv d1" aria-hidden="true">
+      <div class="top"><i>◎</i>ChatGPT</div>
+      <div class="q">Which aesthetic medicine clinics are there in my city?</div>
+      <div class="a">
+        <div class="sk" style="width:92%"></div><div class="sk" style="width:76%"></div>
+        <div class="hit"><img src="assets/cmt-logo.png" alt="" style="width:22px"><div><b>Your clinic</b><br><span style="color:var(--muted);font-size:11.5px">Recommended here?</span></div></div>
+        <div class="sk" style="width:84%"></div><div class="sk" style="width:58%"></div>
+      </div>
+      <div class="ask">Does your clinic show up?</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="pad" id="faq">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow both rv">FAQ</span>
+      <h2 class="h-sec rv d1">What clinics <em>ask us.</em></h2>
+    </div>
+    <div class="faq">
+      <details class="rv"><summary>Who is Clinic Management Tech for?</summary><p>Aesthetic medicine and aesthetic dermatology clinics, medical spas, longevity and wellness practices, and any practice that treats the face or body and wants to measure and follow up on its patients.</p></details>
+      <details class="rv"><summary>How accurate are the measurements?</summary><p>Accuracy comes from consistency. The app only saves a capture when light, distance and head pose are within tolerance, and it uses the same 468-point landmark model every time, so two visits are measured the same way. Each reading is stored with its capture conditions and a quality score, and weak captures are retaken.</p></details>
+      <details class="rv"><summary>Can it really measure blood pressure and breathing through the camera?</summary><p>The camera reads the tiny color changes in the skin caused by each heartbeat (remote photoplethysmography, or rPPG). From that signal it estimates heart rate, heart-rate variability and breathing rate. Blood pressure is shown as an estimated trend over time. These are wellness estimates that help the professional; clinical blood pressure should be confirmed with a validated cuff.</p></details>
+      <details class="rv"><summary>Does the facial analysis replace a medical assessment?</summary><p>No. The 468-point analysis is a support tool that helps the professional document and explain proportions, symmetry and skin. The assessment and the treatment decision always belong to the doctor.</p></details>
+      <details class="rv"><summary>Can we add lab results and longevity tests?</summary><p>Yes. Blood panels, biological-age and epigenetic reports can be uploaded to the patient record, so they appear on the same timeline as the facial and vitals data.</p></details>
+      <details class="rv"><summary>Do my patients need to download anything?</summary><p>Each patient gets access to their app on their phone, where they see their appointments, progress, routine and messages with the clinic.</p></details>
+      <details class="rv"><summary>What does Savia, the AI assistant, do?</summary><p>Savia talks to your patients. She explains their analysis in plain language, sends aftercare and routine guidance, books their next check-up and flags anything urgent, like pain or swelling, to your team right away. She never gives a diagnosis, and your team can step into any conversation.</p></details>
+      <details class="rv"><summary>Can I use my own brand and colors?</summary><p>Yes. We set up the platform with your clinic's identity so your patients recognize it as yours.</p></details>
+      <details class="rv"><summary>How do I get started?</summary><p>Request a demo with the form below. We'll show you the platform with a case like yours and walk you through the steps to connect your clinic.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA · DEMO FOR CLINICS ============ -->
+<section class="cta" id="demo">
+  <div class="wrap">
+    <div class="cta-box">
+      <div style="position:relative;z-index:1">
+        <span class="eyebrow">Book a demo for your clinic</span>
+        <h2 class="h-sec">Connect your clinic. <em>See the data.</em></h2>
+        <p class="lead">Tell us about your clinic and we'll show you the platform on a video call, with a case like yours.</p>
+        <ul class="cta-perks">
+          <li><svg><use href="#i-face"/></svg>A live facial analysis and camera vitals scan</li>
+          <li><svg><use href="#i-chat"/></svg>Savia answering as your patients would see her</li>
+          <li><svg><use href="#i-check"/></svg>A proposal tailored to your team, with no commitment</li>
+        </ul>
+        <div class="cta-logo"><img src="assets/cmt-logo.png" alt=""><span class="sep"></span><span class="wordmark">Clinic<br>Management<br>Tech</span></div>
+      </div>
+
+      <form class="demo-form" id="demo-form" novalidate>
+        <div id="df-fields" style="display:grid;gap:14px">
+          <h3>Request your demo</h3>
+          <div class="df-row">
+            <div class="df-f"><label for="df-name">Your name</label><input id="df-name" autocomplete="name" placeholder="Dr. Laura Méndez" required></div>
+            <div class="df-f"><label for="df-clinic">Clinic and city</label><input id="df-clinic" autocomplete="organization" placeholder="Lumière Clinic, Miami" required></div>
+          </div>
+          <div class="df-row">
+            <div class="df-f"><label for="df-email">Email</label><input id="df-email" type="email" autocomplete="email" placeholder="you@clinic.com" required></div>
+            <div class="df-f"><label for="df-wa">WhatsApp</label><input id="df-wa" type="tel" autocomplete="tel" placeholder="+1 305 555 0123" required></div>
+          </div>
+          <div class="df-row">
+            <div class="df-f"><label for="df-pros">Professionals</label><select id="df-pros"><option>Just me</option><option selected>2 to 5</option><option>6 to 15</option><option>More than 15</option></select></div>
+            <div class="df-f"><label for="df-int">Most interested in</label><select id="df-int"><option>Facial analysis</option><option>Camera vitals</option><option>Progress tracking</option><option>Savia for patients</option><option>Scheduling &amp; records</option><option>Everything</option></select></div>
+          </div>
+          <p class="df-err" id="df-err" role="alert"></p>
+          <button class="btn btn-gold" type="submit">Request demo <svg width="16" height="16"><use href="#i-arrow"/></svg></button>
+        </div>
+        <div class="df-ok" id="df-ok" hidden>
+          <b>Request received</b>
+          <p id="df-ok-text">We'll confirm your demo on WhatsApp and send the invite by email.</p>
+          <div id="df-ok-acts"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="assets/cmt-logo.png" alt="" width="26" height="36"><span class="sep"></span><span class="wordmark" style="font-size:10px">Clinic<br>Management<br>Tech</span></a>
+    <nav aria-label="Footer">
+      <a href="#measurements">Measurements</a><a href="#patients">Patient app</a><a href="#savia">Savia</a><a href="#clinics">Clinics</a><a href="#faq">FAQ</a><a href="#demo">Demo</a><a href="https://www.instagram.com/" id="ig-link" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <span>© <span id="yr"></span> Clinic Management Tech · Measurement and management software for aesthetic clinics</span>
+  </div>
+</footer>
+
+<!-- ============ SAVIA · PATIENT ASSISTANT (floating) ============ -->
+  <div class="agent" id="agent" role="dialog" aria-modal="false" aria-label="Savia, your clinic's AI assistant" aria-hidden="true">
+    <div class="ag-h">
+      <span class="ag-av"><img src="assets/cmt-logo.png" alt=""></span>
+      <div><b>Savia</b><span id="ag-status">Your clinic's assistant · Online</span></div>
+      <span class="ag-badge">AI</span>
+      <button class="ag-x" id="ag-x" type="button" aria-label="Close chat"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="ag-body" id="ag-body" role="log" aria-live="polite"></div>
+    <form class="ag-in" id="ag-form" autocomplete="off">
+      <label for="ag-text" class="sr-only">Type your message</label>
+      <textarea id="ag-text" rows="1" placeholder="Ask Savia anything…" enterkeyhint="send"></textarea>
+      <button class="ag-send" id="ag-send" type="submit" aria-label="Send"><svg width="20" height="20"><use href="#i-send"/></svg></button>
+    </form>
+    <p class="ag-foot">Demo patient view. Savia gives general guidance; your clinic's team makes clinical decisions.</p>
+  </div>
+<div class="ag-tip" id="ag-tip" role="status">Hi, I'm <b>Savia</b>. Try me the way a patient would: ask me about your results.<button type="button" id="ag-tip-x" aria-label="Hide">×</button></div>
+<button class="ag-launch" id="ag-launch" type="button" aria-label="Open chat with Savia" aria-controls="agent" aria-expanded="false"><img src="assets/cmt-logo.png" alt=""><svg class="xi" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg><span class="dot"></span></button>
+
+<script>
+/* ===== CONFIG — fill in these values ===== */
+const CONFIG = {
+  WHATSAPP: '',          // clinic sales WhatsApp, e.g. '50688887777' (digits only, with country code)
+  ENDPOINT: '',          // Apps Script Web App /exec URL. Receives demo requests (action:'lead'), Savia chat (action:'chat') and patient bookings (action:'appointment')
+  GEO_URL:  '',          // URL of your GEO scanner / diagnosis page
+  INSTAGRAM:'',          // Instagram profile URL
+  VIDEO:    ''           // Hero video URL. Empty = assets/espejo-app-scroll.mp4 next to this page
+};
+
+(() => {
+  'use strict';
+  const $ = (s) => document.querySelector(s);
+  const $$ = (s) => [...document.querySelectorAll(s)];
+  $('#yr').textContent = new Date().getFullYear();
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const waURL = (txt) => `https://wa.me/${CONFIG.WHATSAPP}?text=${encodeURIComponent(txt)}`;
+  if (CONFIG.GEO_URL) $('#geo-link').href = CONFIG.GEO_URL;
+  if (CONFIG.INSTAGRAM) $('#ig-link').href = CONFIG.INSTAGRAM;
+
+  // nav + page progress
+  const nav = $('#nav'), links = $('#nav-links'), burger = $('#burger'), pagebar = $('#pagebar');
+  const onPage = () => {
+    nav.classList.toggle('scrolled', scrollY > 10);
+    const max = document.documentElement.scrollHeight - innerHeight;
+    pagebar.style.transform = `scaleX(${max > 0 ? Math.min(scrollY / max, 1) : 0})`;
+  };
+  addEventListener('scroll', onPage, { passive: true }); onPage();
+  burger.addEventListener('click', () => { const o = links.classList.toggle('open'); burger.setAttribute('aria-expanded', o); });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { links.classList.remove('open'); burger.setAttribute('aria-expanded', false); }));
+
+  // reveal
+  const io = new IntersectionObserver((es) => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+  $$('.rv').forEach(el => io.observe(el));
+
+  /* ================= SCROLL-DRIVEN VIDEO =================
+     Each chapter gets an equal share of the scroll track and plays its own
+     slice of the recording t:[start,end] in seconds. Pins mark what is on
+     screen: x/y in % of the phone screen, shown while the chapter's local
+     progress is between f (from) and u (until). */
+  const CHAPTERS = [
+    { label: 'Overview', t: [0, 0.3], pins: [] },
+    { label: 'Guided capture', t: [0.3, 6.9], pins: [
+      { x: 29, y: 30, f: 0,   l: 'Guide oval', d: 'Sets the face size in the frame, so the distance matches on every visit.' },
+      { x: 86, y: 18, f: .15, l: 'Pose example', d: 'Shows the head position for this photo: straight ahead first, then turned to the side.' },
+      { x: 50, y: 90, f: .3,  l: 'Live checks', d: 'Light, distance and pose turn green, then the photo is taken automatically.' } ] },
+    { label: '468 landmarks', t: [7, 9.8], pins: [
+      { x: 50, y: 40, f: 0, u: .4, l: 'Face located', d: 'The model first finds the face and its outline.' },
+      { x: 33, y: 43, f: .35, l: 'Landmark points', d: 'Each white dot is one of the 468 tracked points. They are densest around the eyes, nose and lips.' },
+      { x: 22, y: 89, f: .55, l: 'Point count', d: 'Confirms the full mesh was detected before anything is measured.' } ] },
+    { label: 'Proportion', t: [10, 11.9], pins: [
+      { x: 24, y: 29, f: 0,  l: 'Upper third', d: 'Hairline to brows.' },
+      { x: 24, y: 42, f: .2, l: 'Middle third', d: 'Brows to the base of the nose.' },
+      { x: 24, y: 60, f: .4, l: 'Lower third', d: 'Base of the nose to the chin.' },
+      { x: 14, y: 89, f: .6, l: 'Proportion index', d: 'How even the three thirds are. 1.00 would be perfectly equal.' } ] },
+    { label: 'Symmetry', t: [12, 12.9], pins: [
+      { x: 50, y: 30, f: 0,  l: 'Midline', d: 'A vertical line traced through the center of the face.' },
+      { x: 72, y: 45, f: .3, l: 'Mirrored points', d: 'Each landmark is compared with its pair on the other side.' },
+      { x: 14, y: 89, f: .6, l: 'Symmetry score', d: '100 would mean both sides match exactly.' } ] },
+    { label: 'Skin by zone', t: [13, 17.9], pins: [
+      { x: 50, y: 22, f: 0,  u: .22, l: 'Forehead', d: 'Luminosity: how evenly the skin reflects light.' },
+      { x: 74, y: 47, f: .2, u: .42, l: 'Cheek', d: 'Redness: a higher number means more visible redness.' },
+      { x: 50, y: 44, f: .4, u: .62, l: 'T-zone', d: 'Pores. This reading is still an experimental signal.' },
+      { x: 50, y: 66, f: .6, u: .82, l: 'Chin', d: 'Uniformity of tone and texture.' },
+      { x: 66, y: 37, f: .8, l: 'Eye contour', d: 'Fine lines around the eyes.' },
+      { x: 15, y: 89, f: 0,  l: 'Zone reading', d: 'The value for the highlighted zone, on a 0 to 1 scale.' } ] },
+    { label: 'Profile angles', t: [18, 19.9], pins: [
+      { x: 50, y: 32, f: 0,  l: 'Nasofrontal angle', d: 'Between the forehead and the bridge of the nose, read from the side photo.' },
+      { x: 50, y: 55, f: .3, l: 'Nasolabial angle', d: 'Between the base of the nose and the upper lip.' },
+      { x: 16, y: 89, f: .6, l: 'Angle readout', d: 'Both angles in degrees, saved to the record.' } ] },
+    { label: 'Glow baseline', t: [20, 22.9], pins: [
+      { x: 33, y: 47, f: 0,   l: 'Glow ring', d: 'The overall score, from 0 to 100.' },
+      { x: 74, y: 32, f: .25, l: 'Colored arcs', d: 'Each arc stands for a group of readings: structure, balance and skin.' },
+      { x: 15, y: 79, f: .5,  l: 'Starting point', d: 'Saved as the patient\'s Day 0 baseline.' },
+      { x: 50, y: 90, f: .75, l: 'Report', d: 'The app turns every reading into a report for the patient.' } ] },
+    { label: 'Report', t: [23, 35.5], pins: [
+      { x: 30, y: 20, f: 0,   u: .3,  l: 'Plain-language summary', d: 'The report explains the analysis in everyday words. It is not a diagnosis.' },
+      { x: 45, y: 58, f: .05, u: .3,  l: 'Day 0 photos', d: 'Front and side images saved as the base for every comparison.' },
+      { x: 50, y: 80, f: .25, u: .52, l: 'Your reading', d: 'A short description of the face\'s structure and skin.' },
+      { x: 50, y: 26, f: .55, u: .76, l: 'Thirds and fifths', d: 'The proportion grid drawn on the patient\'s own photo.' },
+      { x: 50, y: 58, f: .78, l: 'Skin by zone', d: 'Each zone with its finding and what the doctor may recommend.' } ] }
+  ];
+  const track = $('#scrolly'), video = $('#scrub'), rail = $('#rail'), railLabel = $('#rail-label');
+  const vphone = $('.vphone'), pinsBox = $('#pins');
+  const chaps = $$('.chap'), ros = $$('.ro');
+  track.style.setProperty('--chapters', CHAPTERS.length);
+
+  // build "on screen" lists and pins
+  const pinEls = CHAPTERS.map((c, ci) => {
+    if (!c.pins.length) return [];
+    const ol = document.createElement('ol'); ol.className = 'seen';
+    const h = document.createElement('p'); h.className = 'seen-h'; h.textContent = 'What you are seeing';
+    return c.pins.map((p, pi) => {
+      const li = document.createElement('li');
+      li.innerHTML = `<i>${pi + 1}</i><div><b>${p.l}</b><span>${p.d}</span></div>`;
+      ol.appendChild(li);
+      const pin = document.createElement('span'); pin.className = 'pin'; pin.textContent = pi + 1;
+      pin.style.left = p.x + '%'; pin.style.top = p.y + '%';
+      pinsBox.appendChild(pin);
+      li.addEventListener('mouseenter', () => pin.classList.add('hl'));
+      li.addEventListener('mouseleave', () => pin.classList.remove('hl'));
+      if (pi === c.pins.length - 1) chaps[ci].append(h, ol);
+      return { p, li, pin };
+    });
+  });
+
+  // rail
+  const ticks = CHAPTERS.map((c, i) => {
+    const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-label', c.label); b.innerHTML = '<i></i>';
+    b.addEventListener('click', () => {
+      const span = track.offsetHeight - innerHeight;
+      scrollTo({ top: track.offsetTop + span * ((i + 0.04) / CHAPTERS.length), behavior: reduce ? 'auto' : 'smooth' });
+    });
+    rail.appendChild(b); return b;
+  });
+
+  // count-up for readout numbers
+  const countUp = (root) => {
+    if (reduce) return;
+    root.querySelectorAll('.m b').forEach(b => {
+      const node = [...b.childNodes].find(n => n.nodeType === 3 && /\d/.test(n.textContent));
+      if (!node) return;
+      if (!b.dataset.v) b.dataset.v = node.textContent;
+      const raw = b.dataset.v, m = raw.match(/[\d.]+/); if (!m) return;
+      const end = parseFloat(m[0]), dec = (m[0].split('.')[1] || '').length, t0 = performance.now();
+      const step = (now) => {
+        const k = Math.min((now - t0) / 700, 1), e = 1 - Math.pow(1 - k, 3);
+        node.textContent = raw.replace(m[0], (end * e).toFixed(dec));
+        if (k < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    });
+  };
+
+  // Video: streams right away from CONFIG.VIDEO, then swaps to an in-memory copy
+  // once fully downloaded so scroll-seeking is instant.
+  const vurl = CONFIG.VIDEO || 'assets/espejo-app-scroll.mp4';
+  video.src = vurl;
+  fetch(vurl).then(r => r.ok ? r.blob() : Promise.reject(r.status)).then(b => {
+    const t = video.currentTime;
+    video.src = URL.createObjectURL(b);
+    video.addEventListener('loadedmetadata', () => { try { video.currentTime = t; } catch (_) {} }, { once: true });
+  }).catch((e) => console.warn('Hero video could not be preloaded (' + e + '); streaming from', vurl));
+  const prime = () => { const p = video.play(); if (p) p.then(() => video.pause()).catch(() => {}); removeEventListener('touchstart', prime); };
+  addEventListener('touchstart', prime, { passive: true });
+
+  let active = -1, target = 0, shown = 0;
+  const update = () => {
+    const span = track.offsetHeight - innerHeight;
+    const p = Math.min(Math.max((scrollY - track.offsetTop) / span, 0), 0.99999);
+    const f = p * CHAPTERS.length, i = Math.floor(f), local = f - i;
+    const [a, b] = CHAPTERS[i].t;
+    target = a + (b - a) * local;
+
+    if (i !== active) {
+      active = i;
+      chaps.forEach((c, j) => c.classList.toggle('on', j === i));
+      ros.forEach((r, j) => { r.classList.toggle('on', j === i); if (j === i) countUp(r); });
+      railLabel.textContent = CHAPTERS[i].label;
+    }
+    // pins + list follow the chapter's local progress
+    pinEls.forEach((arr, ci) => arr.forEach(({ p, li, pin }) => {
+      const here = ci === i, from = p.f || 0, until = p.u ?? 1.01;
+      const on = here && local >= from && local < until;
+      pin.classList.toggle('on', on);
+      li.classList.toggle('on', on);
+      li.classList.toggle('done', here && local >= until);
+    }));
+    ticks.forEach((t, j) => t.style.setProperty('--f', j < i ? '100%' : j === i ? (local * 100).toFixed(1) + '%' : '0%'));
+
+    // phone straightens and grows as you leave the intro
+    const k = i === 0 ? Math.min(local * 1.4, 1) : 1;
+    vphone.style.transform = reduce ? '' : `perspective(1400px) rotateY(${(-16 * (1 - k)).toFixed(2)}deg) rotateZ(${(3 * (1 - k)).toFixed(2)}deg) scale(${(.92 + .08 * k).toFixed(3)})`;
+  };
+  addEventListener('scroll', update, { passive: true });
+  addEventListener('resize', update);
+  update();
+
+  const loop = () => {
+    shown += (target - shown) * 0.2;
+    if (Math.abs(target - shown) < 0.01) shown = target;
+    if (video.readyState >= 1 && !video.seeking && Math.abs(video.currentTime - shown) > 0.03) {
+      try { video.currentTime = shown; } catch (_) {}
+    }
+    requestAnimationFrame(loop);
+  };
+  requestAnimationFrame(loop);
+
+  /* ================= PULSE WAVEFORM (example signal) ================= */
+  const cv = $('#wave'), cx = cv.getContext('2d');
+  const sizeCv = () => { const r = cv.getBoundingClientRect(), d = devicePixelRatio || 1; cv.width = r.width * d; cv.height = r.height * d; cx.setTransform(d, 0, 0, d, 0, 0); drawWave(); };
+  const beat = (x) => Math.exp(-Math.pow((x - .18) / .07, 2)) + .38 * Math.exp(-Math.pow((x - .46) / .09, 2));
+  let waveOn = false; const t0 = performance.now();
+  function drawWave(now) {
+    const w = cv.clientWidth, h = cv.clientHeight; if (!w) return;
+    const t = ((now || performance.now()) - t0) / 1000, per = 60 / 68, secs = 4;
+    cx.clearRect(0, 0, w, h);
+    cx.strokeStyle = 'rgba(201,164,106,.14)'; cx.lineWidth = 1;
+    for (let gx = 0; gx <= w; gx += w / 8) { cx.beginPath(); cx.moveTo(gx, 0); cx.lineTo(gx, h); cx.stroke(); }
+    cx.beginPath();
+    for (let px = 0; px <= w; px += 2) {
+      const ts = t - secs + (px / w) * secs, ph = ((ts / per) % 1 + 1) % 1;
+      const y = h * .82 - (beat(ph) + .12 * Math.sin(ts * 2 * Math.PI * (14 / 60))) * h * .55;
+      px ? cx.lineTo(px, y) : cx.moveTo(px, y);
+    }
+    cx.strokeStyle = '#C9A46A'; cx.lineWidth = 2; cx.lineJoin = 'round'; cx.stroke();
+    if (waveOn && !reduce && now) requestAnimationFrame(drawWave);
+  }
+  sizeCv(); addEventListener('resize', sizeCv);
+  new IntersectionObserver(es => { waveOn = es[0].isIntersecting; if (waveOn) requestAnimationFrame(drawWave); }).observe(cv);
+
+  /* ================= PROGRESS CHART (example patient) ================= */
+  (() => {
+    const svg = $('#prog'), W = 440, H = 200, L = 40, R = 16, T = 14, B = 30;
+    const weeks = [0, 4, 8, 12], glow = [84, 86, 89, 91], red = [13, 11, 8, 6];
+    const x = (wk) => L + (wk / 12) * (W - L - R);
+    const yG = (v) => T + (1 - (v - 80) / 15) * (H - T - B);
+    const yR = (v) => T + (1 - v / 15) * (H - T - B);
+    let g = '';
+    [80, 85, 90, 95].forEach(v => { g += `<line x1="${L}" x2="${W - R}" y1="${yG(v)}" y2="${yG(v)}" stroke="rgba(142,107,54,.15)"/><text x="${L - 8}" y="${yG(v) + 4}" text-anchor="end" font-size="11" fill="#7D7065" font-family="JetBrains Mono,monospace">${v}</text>`; });
+    weeks.forEach(wk => { g += `<text x="${x(wk)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="#7D7065" font-family="Inter,sans-serif">${wk ? 'Week ' + wk : 'Day 0'}</text>`; });
+    const path = (arr, y) => arr.map((v, i) => `${i ? 'L' : 'M'}${x(weeks[i]).toFixed(1)} ${y(v).toFixed(1)}`).join(' ');
+    g += `<path d="${path(glow, yG)} L${x(12)} ${H - B} L${x(0)} ${H - B}Z" fill="rgba(176,138,79,.12)"/>`;
+    g += `<path class="ln" d="${path(glow, yG)}" fill="none" stroke="#B08A4F" stroke-width="2.5" stroke-linejoin="round"/>`;
+    g += `<path d="${path(red, yR)}" fill="none" stroke="#4A4038" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round"/>`;
+    glow.forEach((v, i) => { g += `<circle cx="${x(weeks[i])}" cy="${yG(v)}" r="${i === 3 ? 5 : 3.5}" fill="#B08A4F" stroke="#fff" stroke-width="1.5"/>`; });
+    red.forEach((v, i) => { g += `<circle cx="${x(weeks[i])}" cy="${yR(v)}" r="3" fill="#4A4038"/>`; });
+    g += `<text x="${x(12) - 8}" y="${yG(91) - 10}" text-anchor="end" font-size="12" font-weight="600" fill="#8E6B36" font-family="JetBrains Mono,monospace">91</text>`;
+    g += `<text x="${x(12) - 8}" y="${yR(6) + 18}" text-anchor="end" font-size="11" fill="#4A4038" font-family="JetBrains Mono,monospace">0.06</text>`;
+    svg.innerHTML = g;
+  })();
+
+  // feature tabs → phone panes
+  const feats = $$('.feat');
+  let idx = 0, timer;
+  const show = (i) => {
+    idx = i;
+    feats.forEach((f, j) => { f.classList.toggle('on', j === i); f.setAttribute('aria-selected', j === i); });
+    $$('.pane').forEach(p => p.classList.toggle('on', p.id === feats[i].dataset.pane));
+  };
+  const auto = () => { clearInterval(timer); timer = setInterval(() => show((idx + 1) % feats.length), 4200); };
+  feats.forEach((f, i) => {
+    f.addEventListener('click', () => { show(i); auto(); });
+    f.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(i); auto(); } });
+  });
+  auto();
+
+  /* ================= DEMO REQUEST FORM (clinics) ================= */
+  const df = $('#demo-form');
+  df.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const v = (id) => $('#' + id).value.trim();
+    const lead = { nombre: v('df-name'), clinica: v('df-clinic'), correo: v('df-email').toLowerCase(), whatsapp: v('df-wa'), profesionales: v('df-pros'), intereses: v('df-int'), estado: 'solicitada', idioma: 'en' };
+    const err = $('#df-err');
+    if (!lead.nombre || !lead.clinica) { err.textContent = 'Please add your name and your clinic.'; return; }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(lead.correo)) { err.textContent = 'Please check the email address.'; $('#df-email').focus(); return; }
+    if (lead.whatsapp.replace(/\D/g, '').length < 8) { err.textContent = 'Please add your WhatsApp number with the country code.'; $('#df-wa').focus(); return; }
+    err.textContent = '';
+    const payload = { action: 'lead', sessionId: 'cmt-demo-' + Date.now().toString(36), lead, tz: Intl.DateTimeFormat().resolvedOptions().timeZone || '', page: location.href };
+    if (CONFIG.ENDPOINT) {
+      try { await fetch(CONFIG.ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(payload) }); }
+      catch (x) { console.warn('Could not save the demo request:', x); }
+    } else console.warn('CONFIG.ENDPOINT is empty: the demo request was not saved.', payload);
+    $('#df-fields').hidden = true; $('#df-ok').hidden = false;
+    $('#df-ok-text').textContent = `Thanks, ${lead.nombre.split(' ')[0]}. We'll confirm your demo on WhatsApp at ${lead.whatsapp} and send the invite to ${lead.correo}.`;
+    if (CONFIG.WHATSAPP) $('#df-ok-acts').innerHTML = `<a class="btn btn-gold" target="_blank" rel="noopener" href="${waURL(`Hi, I'm ${lead.nombre} from ${lead.clinica}. I just requested a Clinic Management Tech demo.`)}">Message us on WhatsApp</a>`;
+  });
+
+  /* ================= SAVIA · PATIENT ASSISTANT =================
+     Savia talks to patients: explains results, aftercare, routine, books visits
+     and alerts the clinic. With CONFIG.ENDPOINT she uses Gemini via Apps Script
+     (action:'chat', audience:'patient'); otherwise a local engine answers. */
+  const PATIENT = { glow: 84, symmetry: 94.7, proportion: 0.92, thirds: 81, forehead: 0.74, redness: 0.13, chin: 0.74, eyes: 0.00, nasofrontal: 140.8, nasolabial: 104.9 };
+  const ag = {
+    body: $('#ag-body'), input: $('#ag-text'), send: $('#ag-send'), form: $('#ag-form'),
+    lead: {}, transcript: [], flow: null, awaiting: null, busy: false, started: false,
+    mode: CONFIG.ENDPOINT ? 'llm' : 'local',
+    sid: 'savia-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
+    tz: (Intl.DateTimeFormat().resolvedOptions().timeZone || '')
+  };
+  const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+  const esc = (v) => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const fmt = (v) => esc(v).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  const first = (n) => String(n || '').split(' ')[0];
+  const down = () => { ag.body.scrollTop = ag.body.scrollHeight; };
+  const pad = (n) => String(n).padStart(2, '0');
+
+  const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const nextDays = () => {
+    const out = [], d = new Date();
+    while (out.length < 6) {
+      d.setDate(d.getDate() + 1);
+      const w = d.getDay(); if (w === 0) continue;
+      out.push({ label: `${DOW[w]} ${MON[d.getMonth()]} ${d.getDate()}`, iso: `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}` });
+    }
+    return out;
+  };
+  const to24 = (h) => {
+    const m = String(h).toLowerCase().match(/(\d{1,2})(?::(\d{2}))?\s*(a\.?\s?m|p\.?\s?m)?/);
+    if (!m) return '';
+    let H = +m[1]; const M = m[2] || '00';
+    if (m[3] && m[3][0] === 'p' && H < 12) H += 12;
+    if (m[3] && m[3][0] === 'a' && H === 12) H = 0;
+    return H > 23 ? '' : `${pad(H)}:${M}`;
+  };
+
+  // booking flow (patient → clinic)
+  const LABELS = { nombre: 'Name', motivo: 'Visit', dia: 'Day', hora: 'Time', whatsapp: 'WhatsApp' };
+  const FIELDS = [
+    { k: 'nombre', q: 'Of course. What name is the appointment under?', parse: (t) => t.replace(/^(my name is|i am|i'm|it's|under)\s+/i, '').replace(/[.!,]+$/, '').split(/\s+/).slice(0, 4).map(w => w[0].toUpperCase() + w.slice(1)).join(' ') },
+    { k: 'motivo', pre: (l) => `Thanks, **${first(l.nombre)}**. `, q: 'What is the visit for?', chips: ['Follow-up check-up', 'Treatment session', 'New facial analysis', 'Something else'] },
+    { k: 'dia', q: 'Which day suits you?', days: true },
+    { k: 'hora', q: 'And what time?', chips: ['9:00 a.m.', '11:00 a.m.', '2:00 p.m.', '4:30 p.m.', 'Another time'] },
+    { k: 'whatsapp', q: 'Last one: which WhatsApp number should the clinic confirm on? Include the country code.', input: 'tel',
+      validate: (t) => t.replace(/\D/g, '').length >= 8 || 'That number looks incomplete. Please include the country code, for example **+1 305 555 0123**.' }
+  ];
+  const nextField = () => FIELDS.find(f => !ag.lead[f.k]);
+
+  const MENU = ['Explain my results', 'Aftercare after my session', 'My skincare routine', 'Book my next check-up'];
+  const KB = [
+    [/pain|hurt|swell|bleed|fever|allerg|\brash|blister|infect|burn(ing)?|\bitch|emergenc|can'?t breathe|trouble breathing|bruis/i, 'sos'],
+    [/explain my results|my results|my analysis|my report|my numbers|how did i do|what did (it|the scan) (find|show)/i,
+      `Here's what your Day 0 analysis shows, in plain words:\n\n• **Glow score ${PATIENT.glow}/100**: your overall starting point.\n• **Symmetry ${PATIENT.symmetry}/100**: both sides of your face are very balanced.\n• **Proportion ${PATIENT.proportion}**: your facial thirds are close to even.\n• **Cheek redness ${PATIENT.redness}**: low, your cheeks look calm.\n• **Forehead luminosity ${PATIENT.forehead}**: good, even light reflection.\n\nThese numbers are your **baseline**. At every check-up we measure again the same way and compare. Your doctor will go over them with you; this isn't a diagnosis.`],
+    [/glow/i, `Your **Glow score is ${PATIENT.glow}**. It combines your facial structure, balance and skin readings into one number from 0 to 100. It's your starting point: as you follow your treatment plan and routine, we expect it to move up, and you'll see it in **My progress**.`],
+    [/symmetr|balanc/i, `Your **symmetry is ${PATIENT.symmetry} out of 100**. The app traces a line down the middle of your face and compares each point with its pair on the other side. Above 90 is very balanced, and nobody's face is a perfect 100.`],
+    [/proportion|thirds|fifths/i, `Your face is divided into three parts, from hairline to brows, brows to nose and nose to chin. Your **proportion index is ${PATIENT.proportion}**, where 1.00 would be perfectly even, so your thirds are well balanced.`],
+    [/red(ness)?\b|cheek|rosacea|irritat/i, `Your **cheek redness reading is ${PATIENT.redness}** on a 0 to 1 scale, which is low. If you notice more redness after a session, that's often temporary; mention it at your check-up so the doctor can compare with your baseline.`],
+    [/pore|t-?zone|oily/i, 'The **T-zone pores** reading is still an experimental signal, so your doctor reviews it in person rather than relying on the number. Your routine includes a gentle cleanse to keep that area balanced.'],
+    [/lumin|forehead|dull|bright/i, `Your **forehead luminosity is ${PATIENT.forehead}** out of 1, a good even reflection of light. Hydration and sunscreen help keep it there.`],
+    [/fine lines|wrinkle|eye contour|eyes?\b/i, `Your **eye contour fine-lines reading is ${PATIENT.eyes.toFixed(2)}**, so no visible fine lines were detected today. Sunscreen and your night cream help keep it that way.`],
+    [/angle|profile|nose|nasofrontal|nasolabial/i, `From your side photo the app measured your **nasofrontal angle at ${PATIENT.nasofrontal}°** (forehead to nose bridge) and your **nasolabial angle at ${PATIENT.nasolabial}°** (nose to upper lip). Your doctor uses them when planning treatments around the nose and lips.`],
+    [/makeup|after (my|the|today'?s)?\s?(session|treatment|procedure)|aftercare|post[- ]?treatment|can i (wash|exercise|work ?out|swim)|sauna|gym/i, 'General aftercare for the first days:\n\n• **No makeup for 24 hours.**\n• Avoid sun, saunas, steam and intense exercise for **48 hours**.\n• Wash gently with lukewarm water and your cleanser; don\'t scrub.\n• Use **SPF 50** every morning.\n\nAlways follow the specific instructions your professional gave you for your treatment. If something doesn\'t look or feel right, tell me and I\'ll alert the clinic.'],
+    [/sunscreen|spf|\bsun\b/i, 'Yes: **SPF 50 every morning**, and reapply every 2 to 3 hours if you\'re outdoors. It\'s the step that protects your results the most.'],
+    [/routine|morning|night|cream|serum|cleanser|products?|skin ?care/i, 'Your routine from the clinic:\n\n**Morning**: gentle cleanser · serum + moisturizer · SPF 50.\n**Night**: micellar water to remove makeup · cleanser · the treatment your professional prescribed · repair cream.\n\nYou can check off each step in **Your routine** in the app. You\'re 5 of 7 days this week.'],
+    [/blood pressure|heart|breath|vital|pulse|hrv|stress/i, 'The face scan can also estimate your **heart rate, breathing rate and a blood pressure trend** from tiny color changes in your skin. These are wellness estimates, not a medical measurement. If you\'re worried about your blood pressure, please check it with a cuff and talk to your doctor.'],
+    [/diagnos|disease|is (it|this) (bad|serious|normal)|should i worry|cancer|mole/i, 'I can explain your readings, but I can\'t give a diagnosis. Your doctor is the right person for that. Would you like me to **book a check-up** or send your question to the clinic team?'],
+    [/price|cost|how much|pay|quote|discount/i, 'Prices depend on your treatment plan. I can ask the clinic to send you a quote on WhatsApp, or you can ask at your next visit.'],
+    [/reschedul|cancel|move my|change my (appointment|visit|time)/i, 'resched'],
+    [/privacy|who can see|private|my data|my photos|delete/i, 'Your photos and results are only visible to you and your clinic\'s team. If you have questions about your data, the clinic can walk you through it.'],
+    [/next (visit|check)|when should i (come|return)|how often|compare/i, 'Most plans include a **check-up every 4 to 6 weeks**. Each time, a new scan is compared with your Day 0 baseline so you can see what changed. Want me to book the next one?'],
+    [/thank|great|perfect|awesome/i, 'You\'re welcome! I\'m here whenever you need me.']
+  ];
+  const isBook = (t) => /\b(book|appointment|schedule|reserve|check-?up|next visit)\b/i.test(t);
+  const isHello = (t) => /^(hi|hello|hey|good (morning|afternoon|evening))[\s!.,]*$/i.test(t.trim());
+  const isQ = (t) => /\?/.test(t) || /^(what|how|which|can|could|do|does|is|are|will|should|why|when)\b/i.test(t);
+
+  // ---- UI ----
+  const addMsg = (who, text) => {
+    const d = document.createElement('div');
+    d.className = 'msg ' + who; d.innerHTML = fmt(text);
+    ag.body.appendChild(d);
+    ag.transcript.push({ role: who === 'me' ? 'user' : 'model', text });
+    down();
+  };
+  const typing = () => { const t = document.createElement('div'); t.className = 'typing'; t.innerHTML = '<i></i><i></i><i></i>'; ag.body.appendChild(t); down(); return t; };
+  const bot = async (text) => { const t = typing(); await sleep(Math.min(450 + text.length * 8, 1500)); t.remove(); addMsg('bot', text); };
+  const clearChips = () => ag.body.querySelectorAll('.qr').forEach(c => c.remove());
+  const chips = (items, solidFirst) => {
+    const box = document.createElement('div'); box.className = 'qr';
+    items.forEach((it, i) => {
+      const b = document.createElement('button'); b.type = 'button';
+      b.textContent = typeof it === 'string' ? it : it.label;
+      if (solidFirst && i === 0) b.className = 'solid';
+      b.onclick = () => handle(b.textContent, typeof it === 'string' ? null : it);
+      box.appendChild(b);
+    });
+    ag.body.appendChild(box); down();
+  };
+  const setInput = (f) => {
+    ag.input.setAttribute('inputmode', f && f.input === 'tel' ? 'tel' : 'text');
+    ag.input.placeholder = f && f.input === 'tel' ? '+1 305 555 0123' : 'Ask Savia anything…';
+  };
+  const card = (h, html) => { const c = document.createElement('div'); c.className = 'card-sum'; c.innerHTML = `<h4>${h}</h4>${html}`; ag.body.appendChild(c); down(); };
+
+  const alertClinic = async (t) => {
+    const s = document.createElement('div'); s.className = 'sos';
+    s.innerHTML = '<b>Clinic team alerted</b>Your message was flagged as a priority. Someone from the clinic will contact you shortly.';
+    await bot('I\'m sorry you\'re dealing with this. I\'m **alerting the clinic team now** so someone contacts you as soon as possible.');
+    ag.body.appendChild(s); down();
+    await bot('If the swelling, pain or redness is getting worse quickly, or you have any trouble breathing, **call your local emergency number** right away.');
+    if (CONFIG.ENDPOINT) { try { fetch(CONFIG.ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'alert', sessionId: ag.sid, message: t, transcript: ag.transcript, page: location.href }) }); } catch (_) {} }
+  };
+
+  const answer = async (t) => {
+    const hit = KB.find(([re]) => re.test(t));
+    if (!hit) { await bot('Good question. I\'ll pass it to your clinic\'s team so they can answer you personally. Is there anything else I can help with?'); return chips(MENU); }
+    if (hit[1] === 'sos') return alertClinic(t);
+    if (hit[1] === 'resched') { await bot('No problem, let\'s find a new time. The clinic will release your current slot when they confirm.'); ag.lead = { motivo: 'Reschedule' }; ag.flow = 'book'; return askNext(); }
+    await bot(hit[1]);
+    if (!ag.flow) chips(/results|glow|symmetr|proportion/i.test(t) ? ['What is my Glow score?', 'What does symmetry mean?', 'Book my next check-up'] : MENU.filter(m => m.toLowerCase() !== t.toLowerCase()).slice(0, 3));
+  };
+
+  // ---- booking ----
+  const askNext = async (again) => {
+    const f = nextField(); setInput(f);
+    if (!f) return showSummary();
+    await bot(again ? 'Back to your appointment. ' + f.q : (f.pre ? f.pre(ag.lead) : '') + f.q);
+    if (f.days) chips(nextDays()); else if (f.chips) chips(f.chips);
+  };
+  const showSummary = async () => {
+    ag.awaiting = 'confirm';
+    await bot('Here are your appointment details:');
+    card('Your appointment', `<dl>${Object.keys(LABELS).map(k => `<dt>${LABELS[k]}</dt><dd>${esc(ag.lead[k] || '—')}</dd>`).join('')}</dl>`);
+    chips(['Send request', 'Change something'], true);
+  };
+  const calURL = (l) => {
+    if (!l.fecha_iso || !l.hora_24) return '';
+    const [y, m, d] = l.fecha_iso.split('-').map(Number), [H, M] = l.hora_24.split(':').map(Number);
+    const s = new Date(y, m - 1, d, H, M), e = new Date(s.getTime() + 45 * 60000);
+    const f = (x) => `${x.getFullYear()}${pad(x.getMonth() + 1)}${pad(x.getDate())}T${pad(x.getHours())}${pad(x.getMinutes())}00`;
+    return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text=' + encodeURIComponent(`${l.motivo} (to be confirmed by the clinic)`)
+      + '&dates=' + f(s) + '/' + f(e) + (ag.tz ? '&ctz=' + encodeURIComponent(ag.tz) : '')
+      + '&details=' + encodeURIComponent('Requested through Savia. The clinic will confirm on WhatsApp.');
+  };
+  const submitBooking = async () => {
+    ag.awaiting = null; ag.flow = null;
+    const payload = { action: 'appointment', sessionId: ag.sid, appointment: { ...ag.lead, estado: 'solicitada', idioma: 'en' }, transcript: ag.transcript, tz: ag.tz, page: location.href };
+    if (CONFIG.ENDPOINT) {
+      try { await fetch(CONFIG.ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(payload) }); }
+      catch (e) { console.warn('Could not send the appointment request:', e); }
+    } else console.warn('CONFIG.ENDPOINT is empty: the appointment request was not sent.', payload);
+    const l = ag.lead;
+    await bot(`Done! I sent your request to the clinic for **${l.dia}** at **${String(l.hora).replace(/\.$/, '')}**. They'll confirm on WhatsApp at ${l.whatsapp}.\nAt that visit, your new scan will be compared with your Day 0 baseline.`);
+    const cal = calURL(l);
+    if (cal) card('Next step', `<div class="acts"><a class="btn btn-line" href="${cal}" target="_blank" rel="noopener">Add to my calendar</a></div>`);
+    ag.lead = {};
+    chips(['Aftercare after my session', 'My skincare routine', 'Explain my results']);
+  };
+
+  const viaLocal = async (t, item) => {
+    if (ag.awaiting === 'confirm') {
+      if (/^(send|yes\b|confirm|ok|sure|correct|looks good)/i.test(t)) return submitBooking();
+      if (/chang|edit|fix|^no\b/i.test(t)) { ag.awaiting = 'edit'; await bot('Sure, what would you like to change?'); return chips(Object.values(LABELS)); }
+      await answer(t); return chips(['Send request', 'Change something'], true);
+    }
+    if (ag.awaiting === 'edit') {
+      const k = Object.keys(LABELS).find(x => LABELS[x].toLowerCase() === t.toLowerCase());
+      if (k) { delete ag.lead[k]; if (k === 'dia') delete ag.lead.fecha_iso; if (k === 'hora') delete ag.lead.hora_24; ag.awaiting = null; return askNext(); }
+      return chips(Object.values(LABELS));
+    }
+    if (ag.flow === 'book') {
+      const f = nextField();
+      if (!f) return showSummary();
+      const valid = f.validate ? f.validate(t) === true : true;
+      if (!item && isQ(t) && !(f.validate && valid)) { await answer(t); return askNext(true); }
+      if (f.validate && !valid) { await bot(f.validate(t)); return; }
+      if (f.k === 'hora' && /^another time$/i.test(t)) { await bot('Sure, type the time that works for you.'); return; }
+      if (f.k === 'motivo' && /^something else$/i.test(t)) { await bot('Tell me briefly what the visit is for.'); return; }
+      ag.lead[f.k] = f.parse ? f.parse(t) : t;
+      if (f.k === 'dia') ag.lead.fecha_iso = item && item.iso ? item.iso : '';
+      if (f.k === 'hora') ag.lead.hora_24 = to24(t);
+      return askNext();
+    }
+    if (isHello(t)) { await bot('Hi! How can I help you today?'); return chips(MENU); }
+    if (/pain|hurt|swell|bleed|fever|allerg|\brash|blister|infect|emergenc|breath/i.test(t) && !/blood pressure|breathing rate/i.test(t)) return alertClinic(t);
+    if (isBook(t)) { ag.flow = 'book'; return askNext(); }
+    return answer(t);
+  };
+
+  // ---- Gemini flow (Apps Script) ----
+  const viaLLM = async (t) => {
+    const ty = typing();
+    try {
+      const r = await fetch(CONFIG.ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify({ action: 'chat', audience: 'patient', lang: 'en', sessionId: ag.sid, history: ag.transcript.slice(-24), patient: PATIENT, appointment: ag.lead, tz: ag.tz, page: location.href }) });
+      const j = await r.json();
+      if (!j.ok || !j.reply) throw new Error(j.error || 'No reply');
+      ty.remove();
+      Object.entries(j.appointment || {}).forEach(([k, v]) => { if (v != null && String(v).trim()) ag.lead[k] = String(v).trim(); });
+      addMsg('bot', j.reply);
+      if (Array.isArray(j.quick_replies) && j.quick_replies.length) chips(j.quick_replies.slice(0, 5));
+    } catch (e) {
+      ty.remove();
+      console.warn('Savia could not reach the server, continuing in local mode:', e);
+      ag.mode = 'local';
+      await viaLocal(t);
+    }
+  };
+
+  const handle = async (raw, item, wait) => {
+    const text = String(raw || '').trim();
+    if (!text) return;
+    if (!ag.started) await start(true);
+    if (wait) while (ag.busy) await sleep(150);
+    if (ag.busy) return;
+    ag.busy = true; ag.send.disabled = true;
+    clearChips(); addMsg('me', text);
+    ag.input.value = ''; grow();
+    try { ag.mode === 'llm' ? await viaLLM(text) : await viaLocal(text, item); }
+    finally { ag.busy = false; ag.send.disabled = false; }
+  };
+
+  const start = async (quiet) => {
+    if (ag.started) return; ag.started = true; ag.busy = true;
+    await bot('Hi! I\'m **Savia**, your clinic\'s assistant. Your Day 0 facial analysis is ready.');
+    if (!quiet) { await bot('I can explain your results, help with aftercare and your routine, or book your next visit.'); chips(MENU); }
+    ag.busy = false;
+  };
+
+  const grow = () => { ag.input.style.height = 'auto'; ag.input.style.height = Math.min(ag.input.scrollHeight, 110) + 'px'; };
+  ag.input.addEventListener('input', grow);
+  ag.input.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey && !e.isComposing) { e.preventDefault(); handle(ag.input.value); } });
+  ag.form.addEventListener('submit', (e) => { e.preventDefault(); handle(ag.input.value); });
+
+  // ---- Open / close Savia ----
+  const panel = $('#agent'), launch = $('#ag-launch'), tip = $('#ag-tip');
+  const mobile = () => matchMedia('(max-width:640px)').matches;
+  const fit = () => {
+    if (!panel.classList.contains('open') || !mobile() || !window.visualViewport) { panel.style.height = ''; panel.style.top = ''; return; }
+    panel.style.height = visualViewport.height + 'px'; panel.style.top = visualViewport.offsetTop + 'px';
+    down();
+  };
+  if (window.visualViewport) { visualViewport.addEventListener('resize', fit); visualViewport.addEventListener('scroll', fit); }
+  const hideTip = () => tip.classList.remove('show');
+  const openSavia = (ask) => {
+    panel.classList.add('open'); panel.setAttribute('aria-hidden', 'false');
+    launch.classList.add('on', 'seen'); launch.setAttribute('aria-expanded', 'true'); launch.setAttribute('aria-label', 'Close chat with Savia');
+    hideTip(); document.body.classList.toggle('ag-lock', mobile()); fit();
+    if (ask) handle(ask, null, true); else start();
+    if (matchMedia('(hover:hover)').matches) setTimeout(() => ag.input.focus({ preventScroll: true }), 300);
+  };
+  const closeSavia = () => {
+    panel.classList.remove('open'); panel.setAttribute('aria-hidden', 'true');
+    launch.classList.remove('on'); launch.setAttribute('aria-expanded', 'false'); launch.setAttribute('aria-label', 'Open chat with Savia');
+    document.body.classList.remove('ag-lock'); fit();
+  };
+  launch.addEventListener('click', () => panel.classList.contains('open') ? closeSavia() : openSavia());
+  $('#ag-x').addEventListener('click', () => { closeSavia(); launch.focus(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && panel.classList.contains('open')) { closeSavia(); launch.focus(); } });
+  tip.addEventListener('click', (e) => { if (e.target.id === 'ag-tip-x') { hideTip(); try { sessionStorage.setItem('savia-tip', '1'); } catch (_) {} return; } openSavia(); });
+  // show the tip once the visitor has finished the video section
+  let tipShown = false;
+  addEventListener('scroll', () => {
+    if (tipShown || ag.started) return;
+    if (scrollY > track.offsetTop + track.offsetHeight - innerHeight * .5) {
+      tipShown = true; let dismissed = false; try { dismissed = !!sessionStorage.getItem('savia-tip'); } catch (_) {}
+      if (!dismissed) tip.classList.add('show');
+    }
+  }, { passive: true });
+
+  $$('[data-open-savia]').forEach(a => a.addEventListener('click', (e) => { e.preventDefault(); openSavia(); }));
+  $$('[data-ask]').forEach(b => b.addEventListener('click', () => openSavia(b.dataset.ask)));
+})();
+</script>
+
+</body>
+</html>
